@@ -1,20 +1,20 @@
 ---
-abstract: Chart, values and templates.
+abstract: Redis Helm chart, values and templates index.
 authors: Xander Harris
 date: 2024-04-28
-title: Chart and Templates
+title: Redis Chart and Templates
 ---
 
 ## Usage
 
-Typical Helm chart rules.
+Adjust the behavior of the deployment using the values file, documented below.
 
 ### Chart
 
-```{autoyaml} resources/Chart.yaml
+```{autoyaml} redis/Chart.yaml
 ```
 
 #### Values
 
-```{autoyaml} resources/values.yaml
+```{autoyaml} redis/values.yaml
 ```
