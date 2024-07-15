@@ -1,14 +1,14 @@
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: {{ .Values.redis.name }}
+  name: {{ .Values.redis.fullnameOverride }}
 spec:
   selector:
     matchLabels:
       app.kubernetes.io/name: {{ include "redis.name" . }}
       app.kubernetes.io/instance: {{ .Release.Name }}
   serviceName: "{{ include "redis.fullname" . }}"
-  replicas: {{ .Values.replicaCount }}
+  replicas: {{ .Values.redis.replicaCount }}
   template:
     metadata:
       labels:
@@ -16,30 +16,20 @@ spec:
         app.kubernetes.io/instance: {{ .Release.Name }}
     spec:
       containers:
-        - name: postgres
-          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
-          imagePullPolicy: {{ .Values.image.pullPolicy }}
+        - name: redis
+          image: "{{ .Values.redis.image.repository }}:{{ .Values.redis.image.tag }}"
+          imagePullPolicy: {{ .Values.redis.image.pullPolicy }}
           ports:
-            - containerPort: 5432
-              name: postgres
-          env:
-            - name: POSTGRES_DB
-              value: "{{ .Values.redis.database }}"
-            - name: POSTGRES_USER
-              value: "{{ .Values.redis.username }}"
-            - name: POSTGRES_PASSWORD
-              valueFrom:
-                secretKeyRef:
-                  name: redis-secret
-                  key: redis-password
+            - containerPort: 6379
+              name: redis
           volumeMounts:
-            - name: data
-              mountPath: /var/lib/redis/data
+            - name: redis
+              mountPath: /data
   volumeClaimTemplates:
   - metadata:
-      name: data
+      name: redis
     spec:
       accessModes: [ "ReadWriteOnce" ]
       resources:
         requests:
-          storage: {{ .Values.persistence.size }}
+          storage: {{ .Values.redis.persistence.size }}

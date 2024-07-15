@@ -5,11 +5,11 @@ metadata:
   labels:
     {{- include "redis.labels" . | nindent 4 }}
 spec:
-  type: {{ .Values.service.type }}
+  type: {{ .Values.redis.service.type }}
   ports:
-    - port: {{ .Values.service.port }}
-      targetPort: 5432
+    - port: {{ .Values.redis.service.port }}
+      targetPort: 6379
       protocol: TCP
-      name: postgres
+      name: redis
   selector:
     {{- include "redis.selectorLabels" . | nindent 4 }}

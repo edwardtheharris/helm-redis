@@ -26,7 +26,7 @@ redis:
     className: ""
     enabled: false
     hosts:
-    - host: pg.svc.cluster.local
+    - host: redis.svc.cluster.local
       paths:
       - path: /
         pathType: ImplementationSpecific
@@ -49,21 +49,16 @@ redis:
     successThreshold: 1
     # When the probe times out
     timeoutSeconds: 5
-  nameOverride: "postgres"
+  nameOverride: "redis"
   nodeSelector: {}
   persistence:
-    size: 100Gi
-    storageClass: local-storage
+    size: 10Gi
+    storageClass: usb
   podAnnotations: {}
   podLabels:
-    app: postgres
+    app: redis
   podSecurityContext: {}
   # fsGroup: 2000
-  postgresql:
-    database: postgres
-    name: postgres
-    password: postgres
-    username: postgres
   readinessProbe:
     exec:
       command:
@@ -118,19 +113,22 @@ redis:
   type: StatefulSet
   # Additional volumeMounts on the output Deployment definition.
   volumeMounts:
-  - mountPath: "/mnt/usb/redis"
+  - mountPath: "/data"
     name: redis
     readOnly: false
   ###
-  # - name: foo
-  #   mountPath: "/etc/foo"
-  #   readOnly: true
   # Additional volumes on the output Deployment definition.
-  volumes: []
+  #
+  # ```{code-block} yaml
   # - name: foo
   #   secret:
   #     secretName: mysecret
   #     optional: false
+  # ```
+  volumes:
+  - mountPath: "/mnt/usb/redis"
+    name: redis
+    readOnly: false
 
 
 
