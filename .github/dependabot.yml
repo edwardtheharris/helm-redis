@@ -23,7 +23,7 @@ updates:
     # Location of package manifests
     #
     # - `"/"`
-  - directory: "resources/"
+  - directory: "redis/"
     ###
     # See documentation for possible values
     #

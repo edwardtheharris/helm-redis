@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: {{ .Values.postgresql.name }}
+  name: {{ .Values.redis.name }}
 spec:
   selector:
     matchLabels:
-      app.kubernetes.io/name: {{ include "postgresql.name" . }}
+      app.kubernetes.io/name: {{ include "redis.name" . }}
       app.kubernetes.io/instance: {{ .Release.Name }}
-  serviceName: "{{ include "postgresql.fullname" . }}"
+  serviceName: "{{ include "redis.fullname" . }}"
   replicas: {{ .Values.replicaCount }}
   template:
     metadata:
       labels:
-        app.kubernetes.io/name: {{ include "postgresql.name" . }}
+        app.kubernetes.io/name: {{ include "redis.name" . }}
         app.kubernetes.io/instance: {{ .Release.Name }}
     spec:
       containers:
@@ -24,17 +24,17 @@ spec:
               name: postgres
           env:
             - name: POSTGRES_DB
-              value: "{{ .Values.postgresql.database }}"
+              value: "{{ .Values.redis.database }}"
             - name: POSTGRES_USER
-              value: "{{ .Values.postgresql.username }}"
+              value: "{{ .Values.redis.username }}"
             - name: POSTGRES_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: postgresql-secret
-                  key: postgresql-password
+                  name: redis-secret
+                  key: redis-password
           volumeMounts:
             - name: data
-              mountPath: /var/lib/postgresql/data
+              mountPath: /var/lib/redis/data
   volumeClaimTemplates:
   - metadata:
       name: data
