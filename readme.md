@@ -1,8 +1,20 @@
 ---
-abstract: A helm chart template repository.
+abstract: A simple Redis deployment.
 authors: Xander Harris
 date: 2024-04-02
-title: Helm Template
+title: Redis Helm Chart
 ---
 
-A simple helm chart for Template.
+A simple [Helm](https://helm.sh) chart to deploy a simple
+[Redis](https://redis.io) instance.
+
+## Usage
+
+Install a single-node Redis cluster this command.
+
+```{code-block} shell
+helm -n redis upgrade --install redis redis/
+```
+
+This will deploy using the values in {file}`redis/values.yaml`. You may update
+the values in that file to suit your needs.
