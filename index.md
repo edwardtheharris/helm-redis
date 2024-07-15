@@ -14,9 +14,7 @@ title: Template Helm Chart
 ```{toctree}
 :maxdepth: 2
 
-manifests/index
-resources/index
-workflows/index
+redis/index
 ```
 
 ### Meta Contents
