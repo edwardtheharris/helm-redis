@@ -12,9 +12,9 @@ tests:
           of: StatefulSet
       - equal:
           path: metadata.name
-          pattern: postgres
+          pattern: redis
     it: should be a StatefulSet
     set:
-      postgresql:
-        name: postgres
+      redis:
+        name: redis
 
