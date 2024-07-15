@@ -18,4 +18,5 @@ helm -n redis upgrade --install redis redis/
 ```
 
 This will deploy using the values in {file}`redis/values.yaml`. You may update
-the values in that file to suit your needs.
+the values in that file to suit your needs. The default values do not
+provide ingress.
