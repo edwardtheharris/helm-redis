@@ -20,6 +20,8 @@ redis:
     tag: "alpine"
   imagePullSecrets: []
 
+  labels:
+    app.kubernetes.io/name: redis
   livenessProbe:
     exec:
       command:
@@ -42,7 +44,7 @@ redis:
     storageClass: usb
   podAnnotations: {}
   podLabels:
-    app: redis
+    app.kubernetes.io/name: redis
   podSecurityContext: {}
   # fsGroup: 2000
   readinessProbe:
@@ -73,8 +75,6 @@ redis:
   #   memory: 128Mi
 
   securityContext: {}
-  selectorLabels:
-    app.kubernetes.io/name: redis
   # capabilities:
   #   drop:
   #   - ALL
@@ -87,6 +87,7 @@ redis:
   serviceAccount:
     # Annotations to add to the service account
     annotations:
+      app.kubernetes.io/name: redis
       name: redis
       service-account.kubernetes.io/name: redis
     # Automatically mount a ServiceAccount's API credentials?

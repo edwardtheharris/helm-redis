@@ -4,8 +4,8 @@ kind: PersistentVolumeClaim
 metadata:
   annotations:
     name: redis
-    volume.kubernetes.io/name: redis
-    volume.kubernetes.io/storage-provisioner: {{ .Values.redis.persistence.storageClass }}
+    app.kubernetes.io/name: redis
+    redis.app.kubernetes.io/storage-provisioner: {{ .Values.redis.persistence.storageClass }}
   finalizers:
     - kubernetes.io/pvc-protection
   labels:
