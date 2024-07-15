@@ -8,7 +8,7 @@ redis:
     requiredDuringSchedulingIgnoredDuringExecution:
       nodeSelectorTerms:
         - matchExpressions:
-            - key: redis
+            - key: redis.app.kubernetes.io
               operator: In
               values:
                 - true
@@ -19,26 +19,12 @@ redis:
     # Overrides the image tag whose default is the chart appVersion.
     tag: "alpine"
   imagePullSecrets: []
-  ingress:
-    annotations:
-      kubernetes.io/ingress.class: nginx
-    # kubernetes.io/tls-acme: "true"
-    className: ""
-    enabled: false
-    hosts:
-    - host: redis.svc.cluster.local
-      paths:
-      - path: /
-        pathType: ImplementationSpecific
-    tls: []
-    #  - secretName: chart-example-tls
-    #    hosts:
-    #      - chart-example.local
 
   livenessProbe:
     exec:
       command:
-      - /bin/bash
+      - redis-cli
+      - --version
     # When to give up and restart the container
     failureThreshold: 3
     # Delay before the first probe is initiated
@@ -62,9 +48,8 @@ redis:
   readinessProbe:
     exec:
       command:
-      - pg_isready
-      - -U
-      - postgres
+      - redis-cli
+      - --version
     failureThreshold: 3 # When to give up, marking the Pod as Unready
     initialDelaySeconds: 5 # Delay before the first probe is initiated, can be shorter than liveness probe
     periodSeconds: 5 # How often to perform the probe
@@ -88,6 +73,8 @@ redis:
   #   memory: 128Mi
 
   securityContext: {}
+  selectorLabels:
+    app.kubernetes.io/name: redis
   # capabilities:
   #   drop:
   #   - ALL

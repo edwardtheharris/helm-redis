@@ -13,6 +13,7 @@ A simple [Helm](https://helm.sh) chart to deploy a simple
 Install a single-node Redis cluster this command.
 
 ```{code-block} shell
+kubectl create ns redis
 helm -n redis upgrade --install redis redis/
 ```
 
