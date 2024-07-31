@@ -37,7 +37,7 @@ permissions:
 
 ###
 # ```{rubric} Workflow Jobs
-# ``` 
+# ```
 # ---
 # A workflow run is made up of one or more
 # jobs that can run sequentially or in parallel
@@ -63,11 +63,13 @@ jobs:
       - name: Install the checker
         run: npm i -g markdownlint-cli2 markdownlint-cli2-formatter-junit --save-dev
       - name: Lint the Markdown
-        run: markdownlint-cli2 **/*.md
+        run: markdownlint-cli2 **/*.md *.md
       - name: Publish Test Results
         uses: EnricoMi/publish-unit-test-result-action@v2
         if: always()
         with:
+          check_name: markdownlint
+          comment_title: "Markdown Lint"
           files: markdownlint-cli2-junit.xml
   ###
   # ```{rubric} Build GitHub Pages Site
