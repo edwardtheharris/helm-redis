@@ -57,7 +57,7 @@ readinessProbe:
   periodSeconds: 5 # How often to perform the probe
   successThreshold: 1 # Minimum consecutive successes for the probe to be considered successful
   timeoutSeconds: 1 # When the probe times out
-replicaCount: 2
+replicaCount: 1
 resources:
   limits:
     cpu: 1
