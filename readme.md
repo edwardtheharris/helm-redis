@@ -14,9 +14,9 @@ Install a single-node Redis cluster this command.
 
 ```{code-block} shell
 kubectl create ns redis
-helm -n redis upgrade --install redis redis/
+helm -n redis upgrade --install redis .
 ```
 
-This will deploy using the values in {file}`redis/values.yaml`. You may update
+This will deploy using the values in {file}`values.yaml`. You may update
 the values in that file to suit your needs. The default values do not
 provide ingress.

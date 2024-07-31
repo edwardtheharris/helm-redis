@@ -4,17 +4,19 @@
 # ---
 # Tests to validate the deployment of the described StatefulSet.
 suite: test for statefulset
+release:
+  name: redis
 templates:
-  - statefulset.yaml
+  - templates/statefulset.yaml
+values:
+  - ../values.yaml
+
 tests:
   - asserts:
       - isKind:
           of: StatefulSet
       - equal:
           path: metadata.name
-          pattern: redis
+          value: redis
     it: should be a StatefulSet
-    set:
-      redis:
-        name: redis
 
