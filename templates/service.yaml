@@ -5,11 +5,11 @@ metadata:
   labels:
     {{- include "redis.labels" . | nindent 4 }}
 spec:
-  type: {{ .Values.redis.service.type }}
+  type: {{ .Values.service.type }}
   ports:
-    - port: {{ .Values.redis.service.port }}
-      targetPort: 6379
+    - port: {{ .Values.service.port }}
+      targetPort: {{ .Values.service.port }}
       protocol: TCP
-      name: redis
+      name: {{ .Values.service.name }}
   selector:
     {{- include "redis.selectorLabels" . | nindent 4 }}
