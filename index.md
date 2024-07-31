@@ -35,10 +35,10 @@ Adjust the behavior of the deployment using the values file, documented below.
 
 ### Chart
 
-```{autoyaml} redis/Chart.yaml
+```{autoyaml} Chart.yaml
 ```
 
 #### Values
 
-```{autoyaml} redis/values.yaml
+```{autoyaml} values.yaml
 ```
