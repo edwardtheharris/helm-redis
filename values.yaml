@@ -19,12 +19,12 @@ image:
   tag: "alpine"
 imagePullSecrets: []
 labels:
-  app.kubernetes.io/name: redis
+  statefulset.kubernetes.io/name: redis
 livenessProbe:
   exec:
     command:
     - redis-cli
-    - --version
+    - ping
   # When to give up and restart the container
   failureThreshold: 3
   # Delay before the first probe is initiated
@@ -44,14 +44,14 @@ persistence:
   storageClass: csi-driver-lvm-linear
 podAnnotations: {}
 podLabels:
-  app: redis
+  statefulset.kubernetes.io/name: redis
 podSecurityContext: {}
 # fsGroup: 2000
 readinessProbe:
   exec:
     command:
     - redis-cli
-    - --version
+    - ping
   failureThreshold: 3 # When to give up, marking the Pod as Unready
   initialDelaySeconds: 5 # Delay before the first probe is initiated, can be shorter than liveness probe
   periodSeconds: 5 # How often to perform the probe

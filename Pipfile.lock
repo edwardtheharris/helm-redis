@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "3f8b4dc417120d5e27aef63fc7055ee0f54653073e4d09f62d3c541661736e4a"
+            "sha256": "99bd693fb91a10dea8c8a5343b693b0d36796e5672b115109c5f1599afef685a"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -116,11 +116,11 @@
         },
         "alabaster": {
             "hashes": [
-                "sha256:75a8b99c28a5dad50dd7f8ccdd447a121ddb3892da9e53d1ca5cca3106d58d65",
-                "sha256:b46733c07dce03ae4e150330b975c75737fa60f0a7c591b6c8bf4928a28e2c92"
+                "sha256:c00dca57bca26fa62a6d7d0a9fcce65f3e026e9bfe33e9c538fd3fbb2144fd9e",
+                "sha256:fc6786402dc3fcb2de3cabd5fe455a2db534b371124f1f21de8731783dec828b"
             ],
-            "markers": "python_version >= '3.9'",
-            "version": "==0.7.16"
+            "markers": "python_version >= '3.10'",
+            "version": "==1.0.0"
         },
         "anyio": {
             "hashes": [
@@ -132,10 +132,10 @@
         },
         "argcomplete": {
             "hashes": [
-                "sha256:69a79e083a716173e5532e0fa3bef45f793f4e61096cf52b5a42c0211c8b8aa5",
-                "sha256:c2abcdfe1be8ace47ba777d4fce319eb13bf8ad9dace8d085dcad6eded88057f"
+                "sha256:4349400469dccfb7950bb60334a680c58d88699bff6159df61251878dc6bf74b",
+                "sha256:d4bcf3ff544f51e16e54228a7ac7f486ed70ebf2ecfe49a63a91171c76bf029b"
             ],
-            "version": "==3.4.0"
+            "version": "==3.5.0"
         },
         "babel": {
             "hashes": [
@@ -451,11 +451,11 @@
                 "linkify"
             ],
             "hashes": [
-                "sha256:6457aaa33a5d474aca678b8ead9b3dc298e89c68e67012e73146ea6fd54babf1",
-                "sha256:88f0cb406cb363b077d176b51c476f62d60604d68a8dcdf4832e080441301a87"
+                "sha256:851c9dfb44e36e56d15d05e72f02b80da21a9e0d07cba96baf5e2d476bb91531",
+                "sha256:b9317997552424448c6096c2558872fdb6f81d3ecb3a40ce84a7518798f3f28d"
             ],
-            "markers": "python_version >= '3.8'",
-            "version": "==3.0.1"
+            "markers": "python_version >= '3.10'",
+            "version": "==4.0.0"
         },
         "packaging": {
             "hashes": [
@@ -594,12 +594,12 @@
         },
         "sphinx": {
             "hashes": [
-                "sha256:242f92a7ea7e6c5b406fdc2615413890ba9f699114a9c09192d7dfead2ee9cfe",
-                "sha256:c2419e2135d11f1951cd994d6eb18a1835bd8fdd8429f9ca375dc1f3281bd239"
+                "sha256:0cce1ddcc4fd3532cf1dd283bc7d886758362c5c1de6598696579ce96d8ffa5b",
+                "sha256:56173572ae6c1b9a38911786e206a110c9749116745873feae4f9ce88e59391d"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.9'",
-            "version": "==7.4.7"
+            "markers": "python_version >= '3.10'",
+            "version": "==8.0.2"
         },
         "sphinx-autobuild": {
             "hashes": [
@@ -627,14 +627,6 @@
             "index": "pypi",
             "markers": "python_version >= '3.9'",
             "version": "==0.6.1"
-        },
-        "sphinx-nefertiti": {
-            "hashes": [
-                "sha256:d66395c81add1606850d2d1189d189da88c6793423c213a035469360913700ee",
-                "sha256:eedfe079288678f53e0a564360e89bd8077d4325ac279ebb4c06e9adbb80e9f4"
-            ],
-            "index": "pypi",
-            "version": "==0.3.4"
         },
         "sphinxcontrib-applehelp": {
             "hashes": [
@@ -726,11 +718,11 @@
         },
         "uvicorn": {
             "hashes": [
-                "sha256:0d114d0831ff1adbf231d358cbf42f17333413042552a624ea6a9b4c33dcfd81",
-                "sha256:94a3608da0e530cea8f69683aa4126364ac18e3826b6630d1a65f4638aade503"
+                "sha256:ac6fdbd4425c5fd17a9fe39daf4d4d075da6fdc80f653e5894cdc2fd98752bee",
+                "sha256:b2d86de274726e9878188fa07576c9ceeff90a839e2b6e25c917fe05f5a6c835"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==0.30.3"
+            "version": "==0.30.5"
         },
         "version-query": {
             "hashes": [
