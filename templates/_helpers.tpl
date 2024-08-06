@@ -46,8 +46,9 @@ app.kubernetes.io/managed-by: {{ .Release.Service }}
 Selector labels
 */}}
 {{- define "redis.selectorLabels" -}}
-statefulset.kubernetes.io/name: {{ include "redis.name" . }}
-statefulset.kubernetes.io/instance: {{ .Release.Name }}
+app.kubernetes.io/component: datastore
+app.kubernetes.io/instance: {{ .Release.Name }}
+app.kubernetes.io/name: {{ include "redis.name" . }}
 {{- end }}
 
 {{/*
