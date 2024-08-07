@@ -36,6 +36,7 @@ tests:
           path: metadata.annotations
           value:
             helm.sh/hook: test
+            helm.sh/hook-delete-policy: hook-succeeded
 
   - it: should have correct container name
     asserts:
@@ -55,6 +56,8 @@ tests:
           path: spec.containers[0].command
           value:
             - redis-cli
+            - -h
+            - redis.redis.svc.cluster.local
             - ping
 
   - it: should have restart policy set to Never
