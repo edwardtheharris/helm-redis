@@ -42,7 +42,7 @@ tests:
       - equal:
           path: spec.selector.matchLabels
           value:
-            helm.sh/chart: redis-0.0.2
+            helm.sh/chart: redis-0.0.3
             app.kubernetes.io/component: datastore
             app.kubernetes.io/instance: redis
             app.kubernetes.io/name: redis

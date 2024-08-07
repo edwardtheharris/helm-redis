@@ -1,0 +1,64 @@
+suite: Test Redis Connection Pod
+release:
+  name: redis
+templates:
+  - templates/tests/test-connection.yaml
+values:
+  - ../values.yaml
+
+tests:
+  - it: should be a Pod
+    asserts:
+      - isKind:
+          of: Pod
+
+  - it: should have correct metadata name
+    asserts:
+      - equal:
+          path: metadata.name
+          value: redis-test-connection
+
+  - it: should have correct labels
+    asserts:
+      - equal:
+          path: metadata.labels
+          value:
+            app.kubernetes.io/component: datastore
+            app.kubernetes.io/instance: redis
+            app.kubernetes.io/managed-by: Helm
+            app.kubernetes.io/name: redis
+            helm.sh/chart: redis-0.0.3
+            statefulset.kubernetes.io/version: 1.16.0
+
+  - it: should have correct annotations
+    asserts:
+      - equal:
+          path: metadata.annotations
+          value:
+            helm.sh/hook: test
+
+  - it: should have correct container name
+    asserts:
+      - equal:
+          path: spec.containers[0].name
+          value: redis
+
+  - it: should have correct container image
+    asserts:
+      - equal:
+          path: spec.containers[0].image
+          value: redis:alpine
+
+  - it: should have correct container command
+    asserts:
+      - equal:
+          path: spec.containers[0].command
+          value:
+            - redis-cli
+            - ping
+
+  - it: should have restart policy set to Never
+    asserts:
+      - equal:
+          path: spec.restartPolicy
+          value: Never
