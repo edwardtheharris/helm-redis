@@ -1,6 +1,11 @@
 ###
-# Default values for template.
+# ```{rubric} Redis Chart Default Values
+# ```
+# ---
+# This values file provides reasonable defaults for a Redis deployment.
+#
 # This is a YAML-formatted file.
+#
 # Declare variables to be passed into your templates.
 affinity:
   nodeAffinity:
@@ -15,6 +20,7 @@ fullnameOverride: "redis"
 image:
   pullPolicy: IfNotPresent
   repository: redis
+  ###
   # Overrides the image tag whose default is the chart appVersion.
   tag: "alpine"
 imagePullSecrets: []
@@ -25,14 +31,19 @@ livenessProbe:
     command:
     - redis-cli
     - ping
+  ###
   # When to give up and restart the container
   failureThreshold: 3
+  ###
   # Delay before the first probe is initiated
   initialDelaySeconds: 30
+  ###
   # How often to perform the probe
   periodSeconds: 10
+  ###
   # Minimum consecutive successes for the probe to be considered successful after having failed
   successThreshold: 1
+  ###
   # When the probe times out
   timeoutSeconds: 5
 nameOverride: "redis"
@@ -52,10 +63,18 @@ readinessProbe:
     command:
     - redis-cli
     - ping
-  failureThreshold: 3 # When to give up, marking the Pod as Unready
-  initialDelaySeconds: 5 # Delay before the first probe is initiated, can be shorter than liveness probe
-  periodSeconds: 5 # How often to perform the probe
-  successThreshold: 1 # Minimum consecutive successes for the probe to be considered successful
+  ###
+  # When to give up, marking the Pod as Unready
+  failureThreshold: 3
+  ###
+  # Delay before the first probe is initiated, can be shorter than liveness probe
+  initialDelaySeconds: 5
+  ###
+  # How often to perform the probe
+  periodSeconds: 5
+  ###
+  # Minimum consecutive successes for the probe to be considered successful
+  successThreshold: 1
   timeoutSeconds: 1 # When the probe times out
 replicaCount: 1
 resources:
