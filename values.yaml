@@ -7,15 +7,20 @@
 # This is a YAML-formatted file.
 #
 # Declare variables to be passed into your templates.
+#
+# ```{literalinclude} /values.yaml
+# :language: yaml
+# :start-at: "affinity:\n"
+# ```
 affinity:
   nodeAffinity:
   requiredDuringSchedulingIgnoredDuringExecution:
     nodeSelectorTerms:
-      - matchExpressions:
-          - key: kubernetes.io/os
-            operator: In
-            values:
-              - linux
+    - matchExpressions:
+      - key: kubernetes.io/os
+        operator: In
+        values:
+        - linux
 fullnameOverride: "redis"
 image:
   pullPolicy: IfNotPresent
@@ -25,7 +30,10 @@ image:
   tag: "alpine"
 imagePullSecrets: []
 labels:
-  statefulset.kubernetes.io/name: redis
+  app.kubernetes.io/component: datastore
+  app.kubernetes.io/instance: redis
+  app.kubernetes.io/name: redis
+  name: redis
 livenessProbe:
   exec:
     command:
@@ -55,7 +63,10 @@ persistence:
   storageClass: csi-driver-lvm-linear
 podAnnotations: {}
 podLabels:
-  statefulset.kubernetes.io/name: redis
+  app.kubernetes.io/component: datastore
+  app.kubernetes.io/instance: redis
+  app.kubernetes.io/name: redis
+  name: redis
 podSecurityContext: {}
 # fsGroup: 2000
 readinessProbe:

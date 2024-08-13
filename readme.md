@@ -7,6 +7,8 @@ date: 2024-08-07
 title: Readme for a simple Redis Helm Chart
 ---
 
+[![wakatime](https://wakatime.com/badge/github/edwardtheharris/helm-redis.svg)](https://wakatime.com/badge/github/edwardtheharris/helm-redis)
+
 A simple [Helm](https://helm.sh) chart to deploy a simple
 [Redis](https://redis.io) instance.
 
