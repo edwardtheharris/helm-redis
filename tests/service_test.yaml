@@ -24,7 +24,7 @@ tests:
   - equal:
       path: metadata.labels
       value:
-        helm.sh/chart: redis-0.0.3
+        helm.sh/chart: redis-0.0.4
         app.kubernetes.io/component: datastore
         app.kubernetes.io/instance: redis
         app.kubernetes.io/name: redis

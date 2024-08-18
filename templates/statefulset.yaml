@@ -2,21 +2,26 @@
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: {{ .Release.Name }}
+  name: {{ .Release.Name }}-{{ .Chart.Name }}
+  namespace: {{ .Release.Name }}
   labels:
     app.kubernetes.io/component: datastore
-    app.kubernetes.io/name: {{ .Release.Name }}
+    app.kubernetes.io/name: {{ .Release.Name }}-{{ .Chart.Name }}
     app.kubernetes.io/instance: {{ .Release.Name }}
 spec:
   selector:
     matchLabels:
-      {{- include "redis.labels" . | nindent 6 }}
+      app.kubernetes.io/component: datastore
+      app.kubernetes.io/name: {{ .Release.Name }}-{{ .Chart.Name }}
+      app.kubernetes.io/instance: {{ .Release.Name }}
   serviceName: "{{ include "redis.fullname" . }}"
   replicas: {{ .Values.replicaCount }}
   template:
     metadata:
       labels:
-        {{- include "redis.labels" . | nindent 8 }}
+        app.kubernetes.io/component: datastore
+        app.kubernetes.io/name: {{ .Release.Name }}-{{ .Chart.Name }}
+        app.kubernetes.io/instance: {{ .Release.Name }}
     spec:
       containers:
         - name: redis
@@ -26,7 +31,7 @@ spec:
             - containerPort: {{ .Values.service.port }}
               name: redis
           volumeMounts:
-            - name: {{ .Values.persistence.name }}
+            - name: {{ .Release.Name }}-{{ .Values.persistence.name }}
               mountPath: /data
   volumeClaimTemplates:
   - metadata:
