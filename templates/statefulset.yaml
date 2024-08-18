@@ -30,7 +30,7 @@ spec:
               mountPath: /data
   volumeClaimTemplates:
   - metadata:
-      name: {{ .Values.persistence.name }}
+      name: {{ .Release.Name }}-{{ .Values.persistence.name }}
     spec:
       accessModes:
         - ReadWriteOnce
