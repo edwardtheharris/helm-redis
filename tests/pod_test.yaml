@@ -26,7 +26,7 @@ tests:
         app.kubernetes.io/component: datastore
         app.kubernetes.io/instance: redis
         app.kubernetes.io/managed-by: Helm
-        app.kubernetes.io/name: redis
+        app.kubernetes.io/name: redis-redis
         helm.sh/chart: redis-0.0.4
         statefulset.kubernetes.io/version: 7.4.0
 

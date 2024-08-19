@@ -29,7 +29,10 @@ tests:
         labels:
           app.kubernetes.io/component: datastore
           app.kubernetes.io/instance: redis
+          app.kubernetes.io/managed-by: Helm
           app.kubernetes.io/name: redis-redis
+          helm.sh/chart: redis-0.0.4
+          statefulset.kubernetes.io/version: 7.4.0
         name: redis-redis
         namespace: redis
   documentSelector:
@@ -47,7 +50,6 @@ tests:
   - equal:
       path: spec.selector.matchLabels
       value:
-        app.kubernetes.io/component: datastore
         app.kubernetes.io/instance: redis
         app.kubernetes.io/name: redis-redis
 
