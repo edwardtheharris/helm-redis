@@ -17,7 +17,7 @@ tests:
   asserts:
   - equal:
       path: metadata.name
-      value: redis
+      value: redis-redis
 
 - it: should have correct labels
   asserts:
@@ -27,7 +27,7 @@ tests:
         helm.sh/chart: redis-0.0.4
         app.kubernetes.io/component: datastore
         app.kubernetes.io/instance: redis
-        app.kubernetes.io/name: redis
+        app.kubernetes.io/name: redis-redis
         statefulset.kubernetes.io/version: '7.4.0'
         app.kubernetes.io/managed-by: Helm
 
@@ -57,7 +57,6 @@ tests:
   - equal:
       path: spec.selector
       value:
-        app.kubernetes.io/component: datastore
         app.kubernetes.io/instance: redis
-        app.kubernetes.io/name: redis
+        app.kubernetes.io/name: redis-redis
 
