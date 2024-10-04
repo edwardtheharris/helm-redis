@@ -48,7 +48,7 @@ Selector labels
 */}}
 {{- define "redis.selectorLabels" -}}
 app.kubernetes.io/instance: {{ .Release.Name }}
-app.kubernetes.io/name: {{ .Chart.Name }}-{{ .Release.Name }}
+app.kubernetes.io/name: {{ .Chart.Name }}
 {{- end }}
 
 {{/*
