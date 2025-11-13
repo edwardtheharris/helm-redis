@@ -21,6 +21,7 @@ redis/index
 
 ```{toctree}
 cicd
+changelog
 license
 readme
 security
