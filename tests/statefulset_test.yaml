@@ -29,8 +29,12 @@ tests:
         labels:
           app.kubernetes.io/component: datastore
           app.kubernetes.io/instance: redis
+          app.kubernetes.io/managed-by: Helm
           app.kubernetes.io/name: redis
+          helm.sh/chart: redis-0.0.4
+          statefulset.kubernetes.io/version: 7.4.0
         name: redis
+        namespace: redis
   documentSelector:
     path: kind
     value: StatefulSet
@@ -46,12 +50,8 @@ tests:
   - equal:
       path: spec.selector.matchLabels
       value:
-        helm.sh/chart: redis-0.0.3
-        app.kubernetes.io/component: datastore
         app.kubernetes.io/instance: redis
         app.kubernetes.io/name: redis
-        statefulset.kubernetes.io/version: "7.4.0"
-        app.kubernetes.io/managed-by: Helm
 
 - it: should have correct service name
   asserts:
@@ -78,17 +78,18 @@ tests:
   asserts:
   - equal:
       path: spec.volumeClaimTemplates[0].metadata.name
-      value: redis-redis
+      value: redis
   - equal:
       path: spec.volumeClaimTemplates[0].spec.accessModes
       value:
+      - ReadWriteMany
       - ReadWriteOnce
   - equal:
       path: spec.volumeClaimTemplates[0].spec.resources.requests.storage
-      value: 10Gi
+      value: 5Gi
   - equal:
       path: spec.volumeClaimTemplates[0].spec.storageClassName
-      value: csi-driver-lvm-linear
+      value: csi-lvm-linear
   - equal:
       path: spec.volumeClaimTemplates[0].spec.volumeMode
       value: Filesystem

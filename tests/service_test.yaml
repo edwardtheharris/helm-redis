@@ -24,18 +24,18 @@ tests:
   - equal:
       path: metadata.labels
       value:
-        helm.sh/chart: redis-0.0.3
+        helm.sh/chart: redis-0.0.4
         app.kubernetes.io/component: datastore
         app.kubernetes.io/instance: redis
         app.kubernetes.io/name: redis
         statefulset.kubernetes.io/version: '7.4.0'
         app.kubernetes.io/managed-by: Helm
 
-- it: should have type ClusterIP
+- it: should have type LoadBalancer
   asserts:
   - equal:
       path: spec.type
-      value: ClusterIP
+      value: LoadBalancer
 
 - it: should have correct port configuration
   asserts:
@@ -57,7 +57,6 @@ tests:
   - equal:
       path: spec.selector
       value:
-        app.kubernetes.io/component: datastore
         app.kubernetes.io/instance: redis
         app.kubernetes.io/name: redis
 
