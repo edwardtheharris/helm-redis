@@ -36,8 +36,9 @@ Common labels
 {{- define "redis.labels" -}}
 helm.sh/chart: {{ include "redis.chart" . }}
 {{ include "redis.selectorLabels" . }}
+app.kubernetes.io/component: datastore
 {{- if .Chart.AppVersion }}
-app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
+statefulset.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
 {{- end }}
 app.kubernetes.io/managed-by: {{ .Release.Service }}
 {{- end }}
@@ -46,8 +47,8 @@ app.kubernetes.io/managed-by: {{ .Release.Service }}
 Selector labels
 */}}
 {{- define "redis.selectorLabels" -}}
-app.kubernetes.io/name: {{ include "redis.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
+app.kubernetes.io/name: {{ .Chart.Name }}
 {{- end }}
 
 {{/*
