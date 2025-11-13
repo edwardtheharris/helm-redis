@@ -18,6 +18,7 @@ title: Helm Chart for Redis
 :caption: meta
 
 .github/index
+changelog
 license
 readme
 security

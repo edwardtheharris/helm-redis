@@ -1,8 +1,9 @@
-_build
-.debug/
-.gnupg/
-.values.yaml
-.venv/
-.vscode/
-*.xml
+.deb/
 venv/
+reflog
+.gnupg/
+*.xml
+.values.yaml
+.vscode/
+_build
+.venv/
