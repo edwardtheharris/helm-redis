@@ -16,11 +16,6 @@ This repository uses the following GitHub Actions Workflows.g
 ```{autoyaml} .github/workflows/helm.yml
 ```
 
-### OSSAR Workflow
-
-```{autoyaml} .github/workflows/ossar.yml
-```
-
 ### Pages Workflow
 
 ```{autoyaml} .github/workflows/pages.yml
