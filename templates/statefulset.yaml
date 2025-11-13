@@ -3,17 +3,22 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: {{ .Release.Name }}
+  namespace: {{ .Release.Name }}
+  labels:
+    {{- include "redis.labels" . | nindent 4 }}
 spec:
   selector:
     matchLabels:
-      {{- include "redis.labels" . | nindent 6 }}
-  serviceName: "{{ include "redis.fullname" . }}"
+      {{- include "redis.selectorLabels" . | nindent 6 }}
+  serviceName: {{ .Values.fullnameOverride }}
   replicas: {{ .Values.replicaCount }}
   template:
     metadata:
       labels:
         {{- include "redis.labels" . | nindent 8 }}
     spec:
+      nodeSelector:
+        {{ .Values.nodeSelector | toYaml | nindent 8 }}
       containers:
         - name: redis
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
@@ -29,10 +34,11 @@ spec:
       name: {{ .Values.persistence.name }}
     spec:
       accessModes:
+        - ReadWriteMany
         - ReadWriteOnce
       resources:
         requests:
-          storage: {{ .Values.persistence.size }}
+          storage: {{ .Values.resources.requests.storage }}
       storageClassName: {{ .Values.persistence.storageClass }}
       volumeMode: Filesystem
 {{ end }}
