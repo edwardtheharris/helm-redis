@@ -1,0 +1,293 @@
+---
+abstract: All notable changes to this project will be documented in this file.
+authors:
+- name: Xander Harris
+email: xandertheharris@gmail.com
+date: 2025-09-07
+title: Redis Helm Chart Changelog
+---
+
+<!--markdownlint-disable-->
+## [0.0.1] - 2025-11-13
+
+### 💼 Other - 0.0.1
+
+
+- Update chart version, name
+- Closes #25
+- Merge pull request #26 from edwardtheharris/25-fix-stateful-set
+- Update chart version, name
+- Closes #25
+- Update labels and names
+- Closes #27
+- Merge pull request #28 from edwardtheharris/27-update-name-and-labels
+- Update labels and names
+- Closes #27
+- Bump sphinx-autobuild from 2024.4.16 to 2024.9.3
+- Bumps [sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild) from 2024.4.16 to 2024.9.3.
+- - [Release notes](https://github.com/sphinx-doc/sphinx-autobuild/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx-autobuild/blob/main/NEWS.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx-autobuild/compare/2024.04.16...2024.09.03)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-autobuild
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #29 from edwardtheharris/dependabot/pip/sphinx-autobuild-2024.9.3
+- Bump sphinx-autobuild from 2024.4.16 to 2024.9.3
+- Bump sphinx-autobuild from 2024.9.3 to 2024.9.19
+- Bumps [sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild) from 2024.9.3 to 2024.9.19.
+- - [Release notes](https://github.com/sphinx-doc/sphinx-autobuild/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx-autobuild/blob/main/NEWS.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx-autobuild/compare/2024.09.03...2024.09.19)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-autobuild
+-   dependency-type: direct:development
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #31 from edwardtheharris/dependabot/pip/sphinx-autobuild-2024.9.19
+- Bump sphinx-autobuild from 2024.9.3 to 2024.9.19
+- Bump pipenv from 2024.0.1 to 2024.0.3
+- Bumps [pipenv](https://github.com/pypa/pipenv) from 2024.0.1 to 2024.0.3.
+- - [Release notes](https://github.com/pypa/pipenv/releases)
+- - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/pypa/pipenv/compare/v2024.0.1...v2024.0.3)
+- ---
+- Updated-dependencies:
+- - dependency-name: pipenv
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #32 from edwardtheharris/dependabot/pip/pipenv-2024.0.3
+- Bump pipenv from 2024.0.1 to 2024.0.3
+- Update service, values
+- Closes #34
+- Merge pull request #35 from edwardtheharris/34-repair-values
+- Update service, values
+- Closes #34
+- Bump starlette from 0.38.6 to 0.40.0 in the pip group
+- Bumps the pip group with 1 update: [starlette](https://github.com/encode/starlette).
+- Updates `starlette` from 0.38.6 to 0.40.0
+- - [Release notes](https://github.com/encode/starlette/releases)
+- - [Changelog](https://github.com/encode/starlette/blob/master/docs/release-notes.md)
+- - [Commits](https://github.com/encode/starlette/compare/0.38.6...0.40.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: starlette
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #38 from edwardtheharris/dependabot/pip/pip-f0796b5709
+- Bump starlette from 0.38.6 to 0.40.0 in the pip group
+- Bump sphinx from 8.0.2 to 8.1.3
+- Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 8.0.2 to 8.1.3.
+- - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx/compare/v8.0.2...v8.1.3)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #37 from edwardtheharris/dependabot/pip/sphinx-8.1.3
+- Bump sphinx from 8.0.2 to 8.1.3
+- Bump sphinx-autobuild from 2024.9.19 to 2024.10.3
+- Bumps [sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild) from 2024.9.19 to 2024.10.3.
+- - [Release notes](https://github.com/sphinx-doc/sphinx-autobuild/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx-autobuild/blob/main/NEWS.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx-autobuild/compare/2024.09.19...2024.10.03)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-autobuild
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #36 from edwardtheharris/dependabot/pip/sphinx-autobuild-2024.10.3
+- Bump sphinx-autobuild from 2024.9.19 to 2024.10.3
+- Bump pipenv from 2024.0.3 to 2024.2.0
+- Bumps [pipenv](https://github.com/pypa/pipenv) from 2024.0.3 to 2024.2.0.
+- - [Release notes](https://github.com/pypa/pipenv/releases)
+- - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/pypa/pipenv/compare/v2024.0.3...v2024.2.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: pipenv
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #39 from edwardtheharris/dependabot/pip/pipenv-2024.2.0
+- Bump pipenv from 2024.0.3 to 2024.2.0
+- Merge branch 'main' of
+- Edwardtheharris/helm-redis into release-001
+- Closes #50
+- Fix helm workflow
+- Closes #50
+- Include changelog
+- Closes #50
+## [0.0.3] - 2024-08-18
+
+### 💼 Other - 0.0.3
+
+
+- Bump sphinx-design from 0.6.0 to 0.6.1
+- Bumps [sphinx-design](https://github.com/executablebooks/sphinx-design) from 0.6.0 to 0.6.1.
+- - [Release notes](https://github.com/executablebooks/sphinx-design/releases)
+- - [Changelog](https://github.com/executablebooks/sphinx-design/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/executablebooks/sphinx-design/compare/v0.6.0...v0.6.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-design
+-   dependency-type: direct:development
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #11 from edwardtheharris/dependabot/pip/sphinx-design-0.6.1
+- Update to use component labels
+- Closes #13
+- Merge pull request #14 from edwardtheharris/13-add-component-label
+- Update to use component labels
+- Closes #13
+- Add test suite for stateful set
+- Closes #9
+- Pass test tests
+- Closes #9
+- Pass service test
+- Closes #9
+- Complete unit tests
+- Closes #9
+- Update readme
+- Closes #9
+- Fix unit tests
+- Closes #9
+- Fix test paths
+- Closes #9
+- Merge pull request #15 from edwardtheharris/9-add-unittests-for-deployed-template
+- 9 add unittests for deployed template
+- Closes #9
+- Add missing labels
+- Closes #18
+- Merge pull request #19 from edwardtheharris/18-add-application-name
+- Add missing labels
+- Closes #18
+- Update pvc name
+- Closes #21
+- Merge pull request #22 from edwardtheharris/21-update-redis-pvc
+- Update pvc name
+- Closes #21
+- Add proper icon url
+- Closes #23
+- Merge pull request #24 from edwardtheharris/23-fix-the-icon-url
+- Add proper icon url
+- Closes #23
+## [0.0.2] - 2024-07-31
+
+### 💼 Other - 0.0.2
+
+
+- Initial commit
+- Rename folder, update readme
+- Closes #1
+- Update values file
+- Closes #1
+- Enable Redis deployment
+- Closes #1
+- Fix helth check, drop ingress
+- Closes #1
+- Drop notes
+- Closes #1
+- Add endpointslice
+- Closes #1
+- Drop endpoint slice
+- Closes #1
+- Update readme
+- Closes #1
+- Update tests
+- Closes #1
+- Update paths
+- Closes #1
+- Drop manifests
+- Closes #1
+- Update toctree
+- Closes #1
+- Fix index
+- Closes #1
+- Bump sphinx from 7.3.7 to 7.4.3
+- Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 7.3.7 to 7.4.3.
+- - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx/compare/v7.3.7...v7.4.3)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #2 from edwardtheharris/dependabot/pip/sphinx-7.4.3
+- Bump sphinx from 7.3.7 to 7.4.3
+- Merge branch 'main' into 1-install-redis
+- Merge pull request #4 from edwardtheharris/1-install-redis
+- 1 install redis
+- Closes #1
+- Add changelog
+- Closes #50
+- Update ignore, changelog
+- Closes #50
+- Bump sphinx from 7.4.3 to 7.4.4
+- Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 7.4.3 to 7.4.4.
+- - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx/compare/v7.4.3...v7.4.4)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx
+-   dependency-type: direct:development
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #5 from edwardtheharris/dependabot/pip/sphinx-7.4.4
+- Bump sphinx from 7.4.4 to 7.4.7
+- Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 7.4.4 to 7.4.7.
+- - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx/compare/v7.4.4...v7.4.7)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx
+-   dependency-type: direct:development
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #6 from edwardtheharris/dependabot/pip/sphinx-7.4.7
+- Update chart for deployment
+- Closes #7
+- Add basic test
+- Closes #7
+- Update lint
+- Closes #7
+- Update lint settings
+- Closes #7
+- Update filepaths
+- Closes #7
+- Update build settings
+- Closes #7
+- Update helm ignore
+- Closes #7
+- Fix helm ignore
+- Closes #7
+- Update replica count
+- Closes #7
+- Merge pull request #8 from edwardtheharris/7-install-working-redis
+- Update chart for deployment
+- Closes #7
+<!-- generated by git-cliff -->
