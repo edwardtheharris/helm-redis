@@ -1,4 +1,5 @@
 venv/
+reflog
 .gnupg/
 *.xml
 .values.yaml
