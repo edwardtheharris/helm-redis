@@ -1,4 +1,5 @@
 _build
+reflog
 .debug/
 .gnupg/
 .values.yaml
