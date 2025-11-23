@@ -9,10 +9,10 @@ gitpython = "*"
 pipenv = "*"
 
 [dev-packages]
-"sphinxcontrib.autoyaml" = "*"
 myst-parser = {extras = ["linkify"], version = "*"}
 sphinx = "*"
 sphinx-autobuild = "*"
 sphinx-book-theme = "*"
 sphinx-design = "*"
+sphinxcontrib-autoyaml = "*"
 version-query = "*"
