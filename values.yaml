@@ -143,9 +143,6 @@ service:
   name: redis
   port: 6379
   type: LoadBalancer
-  loadBalancerIP: 192.168.5.5
-  externalIPs:
-    - 192.168.5.12
 serviceAccount:
   # Annotations to add to the service account
   annotations:
