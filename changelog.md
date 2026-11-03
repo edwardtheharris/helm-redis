@@ -1,0 +1,1028 @@
+---
+abstract: All notable changes to this project will be documented in this file.
+authors:
+- name: Xander Harris
+email: xandertheharris@gmail.com
+date: 2025-09-07
+title: Redis Helm Chart Changelog
+---
+
+<!--markdownlint-disable-->
+## [unreleased]
+
+
+### 💼 Other - [unreleased]
+
+
+- Update chart version, name
+- Closes #25
+- Merge pull request #26 from edwardtheharris/25-fix-stateful-set
+- Update chart version, name
+- Closes #25
+- Update labels and names
+- Closes #27
+- Merge pull request #28 from edwardtheharris/27-update-name-and-labels
+- Update labels and names
+- Closes #27
+- Bump sphinx-autobuild from 2024.4.16 to 2024.9.3
+- Bumps [sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild) from 2024.4.16 to 2024.9.3.
+- - [Release notes](https://github.com/sphinx-doc/sphinx-autobuild/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx-autobuild/blob/main/NEWS.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx-autobuild/compare/2024.04.16...2024.09.03)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-autobuild
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #29 from edwardtheharris/dependabot/pip/sphinx-autobuild-2024.9.3
+- Bump sphinx-autobuild from 2024.4.16 to 2024.9.3
+- Bump sphinx-autobuild from 2024.9.3 to 2024.9.19
+- Bumps [sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild) from 2024.9.3 to 2024.9.19.
+- - [Release notes](https://github.com/sphinx-doc/sphinx-autobuild/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx-autobuild/blob/main/NEWS.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx-autobuild/compare/2024.09.03...2024.09.19)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-autobuild
+-   dependency-type: direct:development
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #31 from edwardtheharris/dependabot/pip/sphinx-autobuild-2024.9.19
+- Bump sphinx-autobuild from 2024.9.3 to 2024.9.19
+- Bump pipenv from 2024.0.1 to 2024.0.3
+- Bumps [pipenv](https://github.com/pypa/pipenv) from 2024.0.1 to 2024.0.3.
+- - [Release notes](https://github.com/pypa/pipenv/releases)
+- - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/pypa/pipenv/compare/v2024.0.1...v2024.0.3)
+- ---
+- Updated-dependencies:
+- - dependency-name: pipenv
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #32 from edwardtheharris/dependabot/pip/pipenv-2024.0.3
+- Bump pipenv from 2024.0.1 to 2024.0.3
+- Update service, values
+- Closes #34
+- Merge pull request #35 from edwardtheharris/34-repair-values
+- Update service, values
+- Closes #34
+- Bump starlette from 0.38.6 to 0.40.0 in the pip group
+- Bumps the pip group with 1 update: [starlette](https://github.com/encode/starlette).
+- Updates `starlette` from 0.38.6 to 0.40.0
+- - [Release notes](https://github.com/encode/starlette/releases)
+- - [Changelog](https://github.com/encode/starlette/blob/master/docs/release-notes.md)
+- - [Commits](https://github.com/encode/starlette/compare/0.38.6...0.40.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: starlette
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #38 from edwardtheharris/dependabot/pip/pip-f0796b5709
+- Bump starlette from 0.38.6 to 0.40.0 in the pip group
+- Bump sphinx from 8.0.2 to 8.1.3
+- Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 8.0.2 to 8.1.3.
+- - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx/compare/v8.0.2...v8.1.3)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #37 from edwardtheharris/dependabot/pip/sphinx-8.1.3
+- Bump sphinx from 8.0.2 to 8.1.3
+- Bump sphinx-autobuild from 2024.9.19 to 2024.10.3
+- Bumps [sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild) from 2024.9.19 to 2024.10.3.
+- - [Release notes](https://github.com/sphinx-doc/sphinx-autobuild/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx-autobuild/blob/main/NEWS.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx-autobuild/compare/2024.09.19...2024.10.03)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-autobuild
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #36 from edwardtheharris/dependabot/pip/sphinx-autobuild-2024.10.3
+- Bump sphinx-autobuild from 2024.9.19 to 2024.10.3
+- Bump pipenv from 2024.0.3 to 2024.2.0
+- Bumps [pipenv](https://github.com/pypa/pipenv) from 2024.0.3 to 2024.2.0.
+- - [Release notes](https://github.com/pypa/pipenv/releases)
+- - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/pypa/pipenv/compare/v2024.0.3...v2024.2.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: pipenv
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #39 from edwardtheharris/dependabot/pip/pipenv-2024.2.0
+- Bump pipenv from 2024.0.3 to 2024.2.0
+- Bump loguru from 0.7.2 to 0.7.3
+- Bumps [loguru](https://github.com/Delgan/loguru) from 0.7.2 to 0.7.3.
+- - [Release notes](https://github.com/Delgan/loguru/releases)
+- - [Changelog](https://github.com/Delgan/loguru/blob/master/CHANGELOG.rst)
+- - [Commits](https://github.com/Delgan/loguru/compare/0.7.2...0.7.3)
+- ---
+- Updated-dependencies:
+- - dependency-name: loguru
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Fix envrc
+- Closes #46
+- Fix workflow
+- Closes #46
+- Drop ossar, update requirements
+- Closes #46
+- Update gitignore
+- Closes #46
+- Drop ossar
+- Closes #46
+- Bump pipenv from 2024.2.0 to 2024.4.1
+- Bumps [pipenv](https://github.com/pypa/pipenv) from 2024.2.0 to 2024.4.1.
+- - [Release notes](https://github.com/pypa/pipenv/releases)
+- - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/pypa/pipenv/compare/v2024.2.0...v2024.4.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: pipenv
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #45 from edwardtheharris/dependabot/pip/pipenv-2024.4.1
+- Bump pipenv from 2024.2.0 to 2024.4.1
+- Closes #48
+- Add changelog
+- Closes #50
+- Update ignore, changelog
+- Closes #50
+- Fix helm workflow
+- Closes #50
+- Include changelog
+- Closes #50
+- Add changelog
+- Closes #50
+- Merge pull request #51 from edwardtheharris/release-001
+- Release 001
+- Closes #50
+- Merge branch 'main' of
+- Edwardtheharris/helm-redis into 52-release-002
+- Closes #52
+- Merge pull request #53 from edwardtheharris/52-release-002
+- 52 release 002
+- Closes #52
+- Merge branch 'main' of
+- Edwardtheharris/helm-redis into 54-release-003
+- Closes #54
+- Merge pull request #55 from edwardtheharris/54-release-003
+- 54 release 003
+- Closes #54
+- Merge branch 'main' of
+- Edwardtheharris/helm-redis into 48-bump-pipenv-from-202420-to-202441-45
+- Closes #48
+- Merge pull request #49 from edwardtheharris/48-bump-pipenv-from-202420-to-202441-45
+- 48 bump pipenv from 202420 to 202441 45
+- Closes #48
+- Merge branch 'main' of
+- Edwardtheharris/helm-redis into
+- 46-deploy-to-comms-cluster-for-nautobot
+- Closes #46
+- Merge pull request #47 from edwardtheharris/46-deploy-to-comms-cluster-for-nautobot
+- Fix envrc
+- Closees #46
+- Bump jinja2 from 3.1.4 to 3.1.5 in the pip group
+- Bumps the pip group with 1 update: [jinja2](https://github.com/pallets/jinja).
+- Updates `jinja2` from 3.1.4 to 3.1.5
+- - [Release notes](https://github.com/pallets/jinja/releases)
+- - [Changelog](https://github.com/pallets/jinja/blob/main/CHANGES.rst)
+- - [Commits](https://github.com/pallets/jinja/compare/3.1.4...3.1.5)
+- ---
+- Updated-dependencies:
+- - dependency-name: jinja2
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch 'dependabot/pip/pip-e49d2f513e' of
+- Edwardtheharris/helm-redis into
+- 58-bump-jinja2-from-314-to-315-in-the-pip-group-43
+- Closes #58
+- Bump gitpython from 3.1.43 to 3.1.44
+- Bumps [gitpython](https://github.com/gitpython-developers/GitPython) from 3.1.43 to 3.1.44.
+- - [Release notes](https://github.com/gitpython-developers/GitPython/releases)
+- - [Changelog](https://github.com/gitpython-developers/GitPython/blob/main/CHANGES)
+- - [Commits](https://github.com/gitpython-developers/GitPython/compare/3.1.43...3.1.44)
+- ---
+- Updated-dependencies:
+- - dependency-name: gitpython
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Update workflow
+- Closes #56
+- Update pages workflow
+- Closes #56
+- Update workflow
+- Closes #56
+- Update lock
+- Closes #56
+- Merge pull request #57 from edwardtheharris/56-bump-gitpython-from-3143-to-3144-44
+- 56 bump gitpython from 3143 to 3144 44
+- Closes #56
+- Merge branch 'main' into 58-bump-jinja2-from-314-to-315-in-the-pip-group-43
+- Merge pull request #59 from edwardtheharris/58-bump-jinja2-from-314-to-315-in-the-pip-group-43
+- 58 bump jinja2 from 314 to 315 in the pip group 43
+- Closes #58
+- Merge branch '60-bump-loguru-from-072-to-073-42' into dependabot/pip/loguru-0.7.3
+- Merge pull request #42 from edwardtheharris/dependabot/pip/loguru-0.7.3
+- Bump loguru from 0.7.2 to 0.7.3
+- Closes #60
+- Merge pull request #61 from edwardtheharris/60-bump-loguru-from-072-to-073-42
+- 60 bump loguru from 072 to 073 42
+- Closes #60
+- Bump pipenv from 2025.0.4 to 2026.0.3
+- Bumps [pipenv](https://github.com/pypa/pipenv) from 2025.0.4 to 2026.0.3.
+- - [Release notes](https://github.com/pypa/pipenv/releases)
+- - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/pypa/pipenv/compare/v2025.0.4...v2026.0.3)
+- ---
+- Updated-dependencies:
+- - dependency-name: pipenv
+-   dependency-version: 2026.0.3
+-   dependency-type: direct:production
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #65 from edwardtheharris/dependabot/pip/pipenv-2026.0.3
+- Bump pipenv from 2025.0.4 to 2026.0.3
+- Closes #66
+- Merge pull request #67 from edwardtheharris/66-bump-urllib3-from-250-to-260-in-the-pip-group-across-1-directory-62
+- 66 bump urllib3 from 250 to 260 in the pip group across 1 directory 62
+- Closes #62
+- Bump urllib3 from 2.5.0 to 2.6.0 in the pip group across 1 directory
+- Bumps the pip group with 1 update in the / directory: [urllib3](https://github.com/urllib3/urllib3).
+- Updates `urllib3` from 2.5.0 to 2.6.0
+- - [Release notes](https://github.com/urllib3/urllib3/releases)
+- - [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
+- - [Commits](https://github.com/urllib3/urllib3/compare/2.5.0...2.6.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: urllib3
+-   dependency-version: 2.6.0
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #68 from edwardtheharris/dependabot/pip/pip-a6aa50acab
+- Bump urllib3 from 2.5.0 to 2.6.0 in the pip group across 1 directory
+- Closes #70
+- Merge pull request #71 from edwardtheharris/70-bump-urllib3-from-250-to-260-in-the-pip-group-across-1-directory-68
+- 70 bump urllib3 from 250 to 260 in the pip group across 1 directory 68
+- Closes #70
+- Bump gitpython from 3.1.45 to 3.1.46
+- Bumps [gitpython](https://github.com/gitpython-developers/GitPython) from 3.1.45 to 3.1.46.
+- - [Release notes](https://github.com/gitpython-developers/GitPython/releases)
+- - [Changelog](https://github.com/gitpython-developers/GitPython/blob/main/CHANGES)
+- - [Commits](https://github.com/gitpython-developers/GitPython/compare/3.1.45...3.1.46)
+- ---
+- Updated-dependencies:
+- - dependency-name: gitpython
+-   dependency-version: 3.1.46
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #69 from edwardtheharris/dependabot/pip/gitpython-3.1.46
+- Bump gitpython from 3.1.45 to 3.1.46
+- Closes #72
+- Merge pull request #73 from edwardtheharris/72-bump-gitpython-from-3145-to-3146-69
+- 72 bump gitpython from 3145 to 3146 69
+- Closes #72
+- Add Jenkinsfile
+- Closes #75
+- Merge pull request #76 from edwardtheharris/75-enable-jenkins
+- Add Jenkinsfile
+- Closes #75
+- Bump sphinx from 8.2.3 to 9.1.0
+- Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 8.2.3 to 9.1.0.
+- - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx/compare/v8.2.3...v9.1.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx
+-   dependency-version: 9.1.0
+-   dependency-type: direct:development
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #78 from edwardtheharris/dependabot/pip/sphinx-9.1.0
+- Bump sphinx from 8.2.3 to 9.1.0
+- Closes #82
+- Bump urllib3 from 2.6.0 to 2.6.3 in the pip group across 1 directory
+- Bumps the pip group with 1 update in the / directory: [urllib3](https://github.com/urllib3/urllib3).
+- Updates `urllib3` from 2.6.0 to 2.6.3
+- - [Release notes](https://github.com/urllib3/urllib3/releases)
+- - [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
+- - [Commits](https://github.com/urllib3/urllib3/compare/2.6.0...2.6.3)
+- ---
+- Updated-dependencies:
+- - dependency-name: urllib3
+-   dependency-version: 2.6.3
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch '80-bump-urllib3-from-260-to-263-in-the-pip-group-across-1-directory74' into dependabot/pip/pip-8177a8837a
+- Merge pull request #74 from edwardtheharris/dependabot/pip/pip-8177a8837a
+- Bump urllib3 from 2.6.0 to 2.6.3 in the pip group across 1 directory
+- Closes #80
+- Merge pull request #81 from edwardtheharris/80-bump-urllib3-from-260-to-263-in-the-pip-group-across-1-directory74
+- 80 bump urllib3 from 260 to 263 in the pip group across 1 directory74
+- Closes #80
+- Merge branch 'main' into 82-bump-sphinx-from-823-to-91078
+- Merge pull request #83 from edwardtheharris/82-bump-sphinx-from-823-to-91078
+- 82 bump sphinx from 823 to 91078
+- Closes #82
+- Bump the pip group across 1 directory with 2 updates
+- Bumps the pip group with 2 updates in the / directory: [filelock](https://github.com/tox-dev/py-filelock) and [virtualenv](https://github.com/pypa/virtualenv).
+- Updates `filelock` from 3.20.1 to 3.20.3
+- - [Release notes](https://github.com/tox-dev/py-filelock/releases)
+- - [Changelog](https://github.com/tox-dev/filelock/blob/main/docs/changelog.rst)
+- - [Commits](https://github.com/tox-dev/py-filelock/compare/3.20.1...3.20.3)
+- Updates `virtualenv` from 20.35.4 to 20.36.1
+- - [Release notes](https://github.com/pypa/virtualenv/releases)
+- - [Changelog](https://github.com/pypa/virtualenv/blob/main/docs/changelog.rst)
+- - [Commits](https://github.com/pypa/virtualenv/compare/20.35.4...20.36.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: filelock
+-   dependency-version: 3.20.3
+-   dependency-type: indirect
+-   dependency-group: pip
+- - dependency-name: virtualenv
+-   dependency-version: 20.36.1
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump myst-parser from 4.0.1 to 5.0.0
+- Bumps [myst-parser](https://github.com/executablebooks/MyST-Parser) from 4.0.1 to 5.0.0.
+- - [Release notes](https://github.com/executablebooks/MyST-Parser/releases)
+- - [Changelog](https://github.com/executablebooks/MyST-Parser/blob/master/CHANGELOG.md)
+- - [Commits](https://github.com/executablebooks/MyST-Parser/compare/v4.0.1...v5.0.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: myst-parser
+-   dependency-version: 5.0.0
+-   dependency-type: direct:development
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #77 from edwardtheharris/dependabot/pip/myst-parser-5.0.0
+- Bump myst-parser from 4.0.1 to 5.0.0
+- Closes #85
+- Merge pull request #86 from edwardtheharris/85-bump-myst-parser-from-401-to-50077
+- 85 bump myst parser from 401 to 50077
+- Closes #85
+- Merge branch '89-bump-the-pip-group-across-1-directory-with-2-updates84' into dependabot/pip/pip-421c734e19
+- Merge pull request #84 from edwardtheharris/dependabot/pip/pip-421c734e19
+- Bump the pip group across 1 directory with 2 updates
+- Closes #89
+- Bump sphinx-design from 0.6.1 to 0.7.0
+- Bumps [sphinx-design](https://github.com/executablebooks/sphinx-design) from 0.6.1 to 0.7.0.
+- - [Release notes](https://github.com/executablebooks/sphinx-design/releases)
+- - [Changelog](https://github.com/executablebooks/sphinx-design/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/executablebooks/sphinx-design/compare/v0.6.1...v0.7.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-design
+-   dependency-version: 0.7.0
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch '87-bump-sphinx-design-from-061-to-07079' into dependabot/pip/sphinx-design-0.7.0
+- Merge pull request #79 from edwardtheharris/dependabot/pip/sphinx-design-0.7.0
+- Bump sphinx-design from 0.6.1 to 0.7.0
+- Closes #87
+- Merge pull request #88 from edwardtheharris/87-bump-sphinx-design-from-061-to-07079
+- 87 bump sphinx design from 061 to 07079
+- Closes #87
+- Merge branch 'main' into 89-bump-the-pip-group-across-1-directory-with-2-updates84
+- Merge pull request #90 from edwardtheharris/89-bump-the-pip-group-across-1-directory-with-2-updates84
+- 89 bump the pip group across 1 directory with 2 updates84
+- Closes #89
+- Bump pipenv from 2026.0.3 to 2026.5.2
+- Bumps [pipenv](https://github.com/pypa/pipenv) from 2026.0.3 to 2026.5.2.
+- - [Release notes](https://github.com/pypa/pipenv/releases)
+- - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/pypa/pipenv/compare/v2026.0.3...v2026.5.2)
+- ---
+- Updated-dependencies:
+- - dependency-name: pipenv
+-   dependency-version: 2026.5.2
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #96 from edwardtheharris/dependabot/pip/pipenv-2026.5.2
+- Bump pipenv from 2026.0.3 to 2026.5.2
+- Closes #97
+- Bump requests from 2.32.5 to 2.33.0 in the pip group across 1 directory
+- Bumps the pip group with 1 update in the / directory: [requests](https://github.com/psf/requests).
+- Updates `requests` from 2.32.5 to 2.33.0
+- - [Release notes](https://github.com/psf/requests/releases)
+- - [Changelog](https://github.com/psf/requests/blob/main/HISTORY.md)
+- - [Commits](https://github.com/psf/requests/compare/v2.32.5...v2.33.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: requests
+-   dependency-version: 2.33.0
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #94 from edwardtheharris/dependabot/pip/pip-aa7cb66ac2
+- Bump requests from 2.32.5 to 2.33.0 in the pip group across 1 directory
+- Closes #100
+- Bump sphinx-book-theme from 1.1.4 to 1.2.0
+- Bumps [sphinx-book-theme](https://github.com/executablebooks/sphinx-book-theme) from 1.1.4 to 1.2.0.
+- - [Release notes](https://github.com/executablebooks/sphinx-book-theme/releases)
+- - [Changelog](https://github.com/executablebooks/sphinx-book-theme/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/executablebooks/sphinx-book-theme/compare/v1.1.4...v1.2.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-book-theme
+-   dependency-version: 1.2.0
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #92 from edwardtheharris/dependabot/pip/sphinx-book-theme-1.2.0
+- Bump sphinx-book-theme from 1.1.4 to 1.2.0
+- Closes #98
+- Merge pull request #99 from edwardtheharris/98-bump-sphinx-book-theme-from-114-to-12092
+- 98 bump sphinx book theme from 114 to 12092
+- Closes #98
+- Merge branch 'main' into 100-bump-requests-from-2325-to-2330-in-the-pip-group-across-1-directory94
+- Merge pull request #101 from edwardtheharris/100-bump-requests-from-2325-to-2330-in-the-pip-group-across-1-directory94
+- 100 bump requests from 2325 to 2330 in the pip group across 1 directory94
+- Closes #100
+- Merge branch 'main' into 97-bump-pipenv-from-202603-to-20265296
+- Merge pull request #102 from edwardtheharris/97-bump-pipenv-from-202603-to-20265296
+- 97 bump pipenv from 202603 to 20265296
+- Closes #97
+- Bump gitpython from 3.1.46 to 3.1.50
+- Bumps [gitpython](https://github.com/gitpython-developers/GitPython) from 3.1.46 to 3.1.50.
+- - [Release notes](https://github.com/gitpython-developers/GitPython/releases)
+- - [Changelog](https://github.com/gitpython-developers/GitPython/blob/main/CHANGES)
+- - [Commits](https://github.com/gitpython-developers/GitPython/compare/3.1.46...3.1.50)
+- ---
+- Updated-dependencies:
+- - dependency-name: gitpython
+-   dependency-version: 3.1.50
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump pipenv from 2026.5.2 to 2026.6.1
+- Bumps [pipenv](https://github.com/pypa/pipenv) from 2026.5.2 to 2026.6.1.
+- - [Release notes](https://github.com/pypa/pipenv/releases)
+- - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/pypa/pipenv/compare/v2026.5.2...v2026.6.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: pipenv
+-   dependency-version: 2026.6.1
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #104 from edwardtheharris/dependabot/pip/pipenv-2026.6.1
+- Bump pipenv from 2026.5.2 to 2026.6.1
+- Closes #111
+- Merge pull request #112 from edwardtheharris/111-bump-pipenv-from-202652-to-202661104
+- 111 bump pipenv from 202652 to 202661104
+- Closes #111
+- Merge branch '113-bump-gitpython-from-3146-to-3150106' into dependabot/pip/gitpython-3.1.50
+- Merge pull request #106 from edwardtheharris/dependabot/pip/gitpython-3.1.50
+- Bump gitpython from 3.1.46 to 3.1.50
+- Closes #113
+- Merge pull request #114 from edwardtheharris/113-bump-gitpython-from-3146-to-3150106
+- 113 bump gitpython from 3146 to 3150106
+- Closes #113
+- Bump myst-parser from 5.0.0 to 5.1.0
+- Bumps [myst-parser](https://github.com/executablebooks/MyST-Parser) from 5.0.0 to 5.1.0.
+- - [Release notes](https://github.com/executablebooks/MyST-Parser/releases)
+- - [Changelog](https://github.com/executablebooks/MyST-Parser/blob/master/CHANGELOG.md)
+- - [Commits](https://github.com/executablebooks/MyST-Parser/compare/v5.0.0...v5.1.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: myst-parser
+-   dependency-version: 5.1.0
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump version-query from 1.7.0 to 1.7.1
+- Bumps [version-query](https://github.com/mbdevpl/version-query) from 1.7.0 to 1.7.1.
+- - [Release notes](https://github.com/mbdevpl/version-query/releases)
+- - [Commits](https://github.com/mbdevpl/version-query/compare/v1.7.0...v1.7.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: version-query
+-   dependency-version: 1.7.1
+-   dependency-type: direct:development
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #107 from edwardtheharris/dependabot/pip/version-query-1.7.1
+- Bump version-query from 1.7.0 to 1.7.1
+- Closes #115
+- Merge branch 'main' into 115-bump-version-query-from-170-to-171107
+- Merge pull request #116 from edwardtheharris/115-bump-version-query-from-170-to-171107
+- 115 bump version query from 170 to 171107
+- Closes #115
+- Merge branch 'main' into dependabot/pip/myst-parser-5.1.0
+- Merge pull request #109 from edwardtheharris/dependabot/pip/myst-parser-5.1.0
+- Bump myst-parser from 5.0.0 to 5.1.0
+- Closes #110
+- Update values
+- Closes #110
+- Bump urllib3 from 2.6.3 to 2.7.0 in the pip group across 1 directory
+- Bumps the pip group with 1 update in the / directory: [urllib3](https://github.com/urllib3/urllib3).
+- Updates `urllib3` from 2.6.3 to 2.7.0
+- - [Release notes](https://github.com/urllib3/urllib3/releases)
+- - [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
+- - [Commits](https://github.com/urllib3/urllib3/compare/2.6.3...2.7.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: urllib3
+-   dependency-version: 2.7.0
+-   dependency-type: indirect
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch '117-bump-urllib3-from-263-to-270-in-the-pip-group-across-1-directory108' into dependabot/pip/pip-c30c77f42d
+- Merge pull request #108 from edwardtheharris/dependabot/pip/pip-c30c77f42d
+- Bump urllib3 from 2.6.3 to 2.7.0 in the pip group across 1 directory
+- Closes #117
+- Merge branch 'main' into 117-bump-urllib3-from-263-to-270-in-the-pip-group-across-1-directory108
+- Merge pull request #118 from edwardtheharris/117-bump-urllib3-from-263-to-270-in-the-pip-group-across-1-directory108
+- 117 bump urllib3 from 263 to 270 in the pip group across 1 directory108
+- Closes #117
+- Merge branch 'main' of
+- Edwardtheharris/helm-redis into
+- 110-bump-myst-parser-from-500-to-510109
+- Closes #110
+- Merge pull request #119 from edwardtheharris/110-bump-myst-parser-from-500-to-510109
+- 110 bump myst parser from 500 to 510109
+- Closes #110
+- Bump pipenv from 2026.6.1 to 2026.6.2
+- Bumps [pipenv](https://github.com/pypa/pipenv) from 2026.6.1 to 2026.6.2.
+- - [Release notes](https://github.com/pypa/pipenv/releases)
+- - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/pypa/pipenv/compare/v2026.6.1...v2026.6.2)
+- ---
+- Updated-dependencies:
+- - dependency-name: pipenv
+-   dependency-version: 2026.6.2
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #120 from edwardtheharris/dependabot/pip/pipenv-2026.6.2
+- Bump pipenv from 2026.6.1 to 2026.6.2
+- Closes #121
+- Merge pull request #122 from edwardtheharris/121-bump-pipenv-from-202661-to-202662120
+- 121 bump pipenv from 202661 to 202662120
+- Closes #121
+- Bump starlette from 1.2.0 to 1.3.1 in the pip group across 1 directory
+- Bumps the pip group with 1 update in the / directory: [starlette](https://github.com/Kludex/starlette).
+- Updates `starlette` from 1.2.0 to 1.3.1
+- - [Release notes](https://github.com/Kludex/starlette/releases)
+- - [Changelog](https://github.com/Kludex/starlette/blob/main/docs/release-notes.md)
+- - [Commits](https://github.com/Kludex/starlette/compare/1.2.0...1.3.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: starlette
+-   dependency-version: 1.3.1
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #123 from edwardtheharris/dependabot/pip/pip-ea269f03c1
+- Bump starlette from 1.2.0 to 1.3.1 in the pip group across 1 directory
+- Closes #124
+- Merge pull request #125 from edwardtheharris/124-bump-starlette-from-120-to-131-in-the-pip-group-across-1-directory123
+- 124 bump starlette from 120 to 131 in the pip group across 1 directory123
+- Closes #124
+- Bump gitpython from 3.1.50 to 3.1.51
+- Bumps [gitpython](https://github.com/gitpython-developers/GitPython) from 3.1.50 to 3.1.51.
+- - [Release notes](https://github.com/gitpython-developers/GitPython/releases)
+- - [Changelog](https://github.com/gitpython-developers/GitPython/blob/main/CHANGES)
+- - [Commits](https://github.com/gitpython-developers/GitPython/compare/3.1.50...3.1.51)
+- ---
+- Updated-dependencies:
+- - dependency-name: gitpython
+-   dependency-version: 3.1.51
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #126 from edwardtheharris/dependabot/pip/gitpython-3.1.51
+- Bump gitpython from 3.1.50 to 3.1.51
+- Closes #127
+- Merge pull request #128 from edwardtheharris/127-bump-gitpython-from-3150-to-3151126
+- 127 bump gitpython from 3150 to 3151126
+- Closes #127
+- Bump gitpython from 3.1.51 to 3.1.57
+- Bumps [gitpython](https://github.com/gitpython-developers/GitPython) from 3.1.51 to 3.1.57.
+- - [Release notes](https://github.com/gitpython-developers/GitPython/releases)
+- - [Changelog](https://github.com/gitpython-developers/GitPython/blob/main/CHANGES)
+- - [Commits](https://github.com/gitpython-developers/GitPython/compare/3.1.51...3.1.57)
+- ---
+- Updated-dependencies:
+- - dependency-name: gitpython
+-   dependency-version: 3.1.57
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #132 from edwardtheharris/dependabot/pip/gitpython-3.1.57
+- Bump gitpython from 3.1.51 to 3.1.57
+- Closes #133
+- Merge pull request #134 from edwardtheharris/133-bump-gitpython-from-3151-to-3157---132132
+- 133 bump gitpython from 3151 to 3157   132132
+- Closes #133
+- Bump sphinx-book-theme from 1.2.0 to 1.4.0
+- Bumps [sphinx-book-theme](https://github.com/executablebooks/sphinx-book-theme) from 1.2.0 to 1.4.0.
+- - [Release notes](https://github.com/executablebooks/sphinx-book-theme/releases)
+- - [Changelog](https://github.com/executablebooks/sphinx-book-theme/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/executablebooks/sphinx-book-theme/compare/v1.2.0...v1.4.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-book-theme
+-   dependency-version: 1.4.0
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #130 from edwardtheharris/dependabot/pip/sphinx-book-theme-1.4.0
+- Bump sphinx-book-theme from 1.2.0 to 1.4.0
+- Closes #136
+- Merge pull request #137 from edwardtheharris/136-bump-sphinx-book-theme-from-120-to-140---130130
+- 136 bump sphinx book theme from 120 to 140   130130
+- Closes #136
+- Bump setuptools in the pip group across 1 directory
+- Bumps the pip group with 1 update in the / directory: [setuptools](https://github.com/pypa/setuptools).
+- Updates `setuptools` from 82.0.1 to 83.0.0
+- - [Release notes](https://github.com/pypa/setuptools/releases)
+- - [Changelog](https://github.com/pypa/setuptools/blob/main/NEWS.rst)
+- - [Commits](https://github.com/pypa/setuptools/compare/v82.0.1...v83.0.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: setuptools
+-   dependency-version: 83.0.0
+-   dependency-type: indirect
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #135 from edwardtheharris/dependabot/pip/pip-fec1d00dd4
+- Bump setuptools from 82.0.1 to 83.0.0 in the pip group across 1 directory
+- Closes #138
+- Merge pull request #139 from edwardtheharris/138-bump-setuptools-from-8201-to-8300-in-the-pip-group-across-1-directory---135135
+- 138 bump setuptools from 8201 to 8300 in the pip group across 1 directory   135135
+- Closes #138
+- Bump the pip group across 1 directory with 2 updates
+- Bumps the pip group with 2 updates in the / directory: [gitpython](https://github.com/gitpython-developers/GitPython) and [anyio](https://github.com/agronholm/anyio).
+- Updates `gitpython` from 3.1.57 to 3.1.59
+- - [Release notes](https://github.com/gitpython-developers/GitPython/releases)
+- - [Changelog](https://github.com/gitpython-developers/GitPython/blob/main/CHANGES)
+- - [Commits](https://github.com/gitpython-developers/GitPython/compare/3.1.57...3.1.59)
+- Updates `anyio` from 4.14.0 to 4.14.2
+- - [Release notes](https://github.com/agronholm/anyio/releases)
+- - [Commits](https://github.com/agronholm/anyio/compare/4.14.0...4.14.2)
+- ---
+- Updated-dependencies:
+- - dependency-name: gitpython
+-   dependency-version: 3.1.59
+-   dependency-type: direct:production
+-   dependency-group: pip
+- - dependency-name: anyio
+-   dependency-version: 4.14.2
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #147 from edwardtheharris/dependabot/pip/pip-d0f0114369
+- Bump the pip group across 1 directory with 2 updates
+- Closes #148
+- Merge pull request #149 from edwardtheharris/148-bump-the-pip-group-across-1-directory-with-2-updates---147147
+- 148 bump the pip group across 1 directory with 2 updates   147147
+- Closes #148
+- Bump pipenv from 2026.6.2 to 2026.8.0
+- Bumps [pipenv](https://github.com/pypa/pipenv) from 2026.6.2 to 2026.8.0.
+- - [Release notes](https://github.com/pypa/pipenv/releases)
+- - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/pypa/pipenv/compare/v2026.6.2...v2026.8.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: pipenv
+-   dependency-version: 2026.8.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump gitpython from 3.1.59 to 3.1.62
+- Bumps [gitpython](https://github.com/gitpython-developers/GitPython) from 3.1.59 to 3.1.62.
+- - [Release notes](https://github.com/gitpython-developers/GitPython/releases)
+- - [Changelog](https://github.com/gitpython-developers/GitPython/blob/main/CHANGES)
+- - [Commits](https://github.com/gitpython-developers/GitPython/compare/3.1.59...3.1.62)
+- ---
+- Updated-dependencies:
+- - dependency-name: gitpython
+-   dependency-version: 3.1.62
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #146 from edwardtheharris/dependabot/pip/gitpython-3.1.62
+- Bump gitpython from 3.1.59 to 3.1.62
+- Closes #150
+- Merge branch '150-bump-gitpython-from-3159-to-3162---146146' into dependabot/pip/pipenv-2026.8.0
+- Merge pull request #143 from edwardtheharris/dependabot/pip/pipenv-2026.8.0
+- Bump pipenv from 2026.6.2 to 2026.8.0
+- Closes #150
+- Merge pull request #151 from edwardtheharris/150-bump-gitpython-from-3159-to-3162---146146
+- 150 bump gitpython from 3159 to 3162   146146
+- Closes #150
+- Bump urllib3 from 2.7.0 to 2.8.0 in the pip group across 1 directory
+- Bumps the pip group with 1 update in the / directory: [urllib3](https://github.com/urllib3/urllib3).
+- Updates `urllib3` from 2.7.0 to 2.8.0
+- - [Release notes](https://github.com/urllib3/urllib3/releases)
+- - [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
+- - [Commits](https://github.com/urllib3/urllib3/compare/2.7.0...2.8.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: urllib3
+-   dependency-version: 2.8.0
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump gitpython from 3.1.62 to 3.2.0
+- Bumps [gitpython](https://github.com/gitpython-developers/GitPython) from 3.1.62 to 3.2.0.
+- - [Release notes](https://github.com/gitpython-developers/GitPython/releases)
+- - [Changelog](https://github.com/gitpython-developers/GitPython/blob/main/CHANGES)
+- - [Commits](https://github.com/gitpython-developers/GitPython/compare/3.1.62...3.2.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: gitpython
+-   dependency-version: 3.2.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #152 from edwardtheharris/dependabot/pip/gitpython-3.2.0
+- Bump gitpython from 3.1.62 to 3.2.0
+- Closes #154
+- Merge branch '154-bump-urllib3-from-270-to-280-in-the-pip-group-across-1-directory---153153' into dependabot/pip/pip-2a4a739b48
+- Merge pull request #153 from edwardtheharris/dependabot/pip/pip-2a4a739b48
+- Bump urllib3 from 2.7.0 to 2.8.0 in the pip group across 1 directory
+- Closes #154
+- Merge pull request #155 from edwardtheharris/154-bump-urllib3-from-270-to-280-in-the-pip-group-across-1-directory---153153
+- 154 bump urllib3 from 270 to 280 in the pip group across 1 directory   153153
+- Closes #154
+- Bump pipenv from 2026.8.0 to 2026.9.1
+- Bumps [pipenv](https://github.com/pypa/pipenv) from 2026.8.0 to 2026.9.1.
+- - [Release notes](https://github.com/pypa/pipenv/releases)
+- - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/pypa/pipenv/compare/v2026.8.0...v2026.9.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: pipenv
+-   dependency-version: 2026.9.1
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #156 from edwardtheharris/dependabot/pip/pipenv-2026.9.1
+- Bump pipenv from 2026.8.0 to 2026.9.1
+- Closes #158
+- Bump gitpython from 3.2.0 to 3.2.1
+- Bumps [gitpython](https://github.com/gitpython-developers/GitPython) from 3.2.0 to 3.2.1.
+- - [Release notes](https://github.com/gitpython-developers/GitPython/releases)
+- - [Changelog](https://github.com/gitpython-developers/GitPython/blob/main/doc/source/changes.rst)
+- - [Commits](https://github.com/gitpython-developers/GitPython/compare/3.2.0...3.2.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: gitpython
+-   dependency-version: 3.2.1
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #157 from edwardtheharris/dependabot/pip/gitpython-3.2.1
+- Bump gitpython from 3.2.0 to 3.2.1
+- Closes #157
+- Merge pull request #159 from edwardtheharris/158-bump-gitpython-from-320-to-321---157157
+- 158 bump gitpython from 320 to 321   157157
+- Closes #158
+- Bump pipenv from 2026.9.1 to 2026.10.4
+- Bumps [pipenv](https://github.com/pypa/pipenv) from 2026.9.1 to 2026.10.4.
+- - [Release notes](https://github.com/pypa/pipenv/releases)
+- - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/pypa/pipenv/compare/v2026.9.1...v2026.10.4)
+- ---
+- Updated-dependencies:
+- - dependency-name: pipenv
+-   dependency-version: 2026.10.4
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #163 from edwardtheharris/dependabot/pip/pipenv-2026.10.4
+- Bump pipenv from 2026.9.1 to 2026.10.4
+- Closes #164
+- Merge pull request #165 from edwardtheharris/164-bump-pipenv-from-202691-to-2026104---163163
+- 164 bump pipenv from 202691 to 2026104   163163
+- Closes #164
+- Release 0.0.4
+- Closes #166
+## [0.0.3] - 2025-11-13
+
+### 💼 Other - 0.0.3
+
+
+- Bump sphinx-design from 0.6.0 to 0.6.1
+- Bumps [sphinx-design](https://github.com/executablebooks/sphinx-design) from 0.6.0 to 0.6.1.
+- - [Release notes](https://github.com/executablebooks/sphinx-design/releases)
+- - [Changelog](https://github.com/executablebooks/sphinx-design/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/executablebooks/sphinx-design/compare/v0.6.0...v0.6.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-design
+-   dependency-type: direct:development
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #11 from edwardtheharris/dependabot/pip/sphinx-design-0.6.1
+- Update to use component labels
+- Closes #13
+- Merge pull request #14 from edwardtheharris/13-add-component-label
+- Update to use component labels
+- Closes #13
+- Add test suite for stateful set
+- Closes #9
+- Pass test tests
+- Closes #9
+- Pass service test
+- Closes #9
+- Complete unit tests
+- Closes #9
+- Update readme
+- Closes #9
+- Fix unit tests
+- Closes #9
+- Fix test paths
+- Closes #9
+- Merge pull request #15 from edwardtheharris/9-add-unittests-for-deployed-template
+- 9 add unittests for deployed template
+- Closes #9
+- Add missing labels
+- Closes #18
+- Merge pull request #19 from edwardtheharris/18-add-application-name
+- Add missing labels
+- Closes #18
+- Update pvc name
+- Closes #21
+- Merge pull request #22 from edwardtheharris/21-update-redis-pvc
+- Update pvc name
+- Closes #21
+- Add proper icon url
+- Closes #23
+- Merge pull request #24 from edwardtheharris/23-fix-the-icon-url
+- Add proper icon url
+- Closes #23
+- Add changelog config
+- Closes #54
+- Add changelog
+- Closes #54
+## [0.0.2] - 2025-11-13
+
+### 💼 Other - 0.0.2
+
+
+- Initial commit
+- Rename folder, update readme
+- Closes #1
+- Update values file
+- Closes #1
+- Enable Redis deployment
+- Closes #1
+- Fix helth check, drop ingress
+- Closes #1
+- Drop notes
+- Closes #1
+- Add endpointslice
+- Closes #1
+- Drop endpoint slice
+- Closes #1
+- Update readme
+- Closes #1
+- Update tests
+- Closes #1
+- Update paths
+- Closes #1
+- Drop manifests
+- Closes #1
+- Update toctree
+- Closes #1
+- Fix index
+- Closes #1
+- Bump sphinx from 7.3.7 to 7.4.3
+- Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 7.3.7 to 7.4.3.
+- - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx/compare/v7.3.7...v7.4.3)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #2 from edwardtheharris/dependabot/pip/sphinx-7.4.3
+- Bump sphinx from 7.3.7 to 7.4.3
+- Merge branch 'main' into 1-install-redis
+- Merge pull request #4 from edwardtheharris/1-install-redis
+- 1 install redis
+- Closes #1
+- Bump sphinx from 7.4.3 to 7.4.4
+- Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 7.4.3 to 7.4.4.
+- - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx/compare/v7.4.3...v7.4.4)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx
+-   dependency-type: direct:development
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #5 from edwardtheharris/dependabot/pip/sphinx-7.4.4
+- Bump sphinx from 7.4.4 to 7.4.7
+- Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 7.4.4 to 7.4.7.
+- - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx/compare/v7.4.4...v7.4.7)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx
+-   dependency-type: direct:development
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #6 from edwardtheharris/dependabot/pip/sphinx-7.4.7
+- Update chart for deployment
+- Closes #7
+- Add basic test
+- Closes #7
+- Update lint
+- Closes #7
+- Update lint settings
+- Closes #7
+- Update filepaths
+- Closes #7
+- Update build settings
+- Closes #7
+- Update helm ignore
+- Closes #7
+- Fix helm ignore
+- Closes #7
+- Update replica count
+- Closes #7
+- Merge pull request #8 from edwardtheharris/7-install-working-redis
+- Update chart for deployment
+- Closes #7
+- Add changelog config
+- Closes #52
+- Add changelog
+- Closes #52
+- Update index
+- Closes #52
+<!-- generated by git-cliff -->
