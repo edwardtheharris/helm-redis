@@ -11,7 +11,88 @@ title: Redis Helm Chart Changelog
 ## [unreleased]
 
 
+### 🐛 Bug Fixes - [unreleased]
+
+
+- Update lock
+- Drop lock
+- Update lock
+
+
 ### 💼 Other - [unreleased]
+
+
+- Bump sphinx from 9.1.0 to 9.2.0
+- Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 9.1.0 to 9.2.0.
+- - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx/compare/v9.1.0...v9.2.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx
+-   dependency-version: 9.2.0
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Update lock
+- Drop lock
+- Update lock
+- Update changelog
+- Bump certifi
+- Bumps the pip group with 1 update in the / directory: [certifi](https://github.com/certifi/python-certifi).
+- Updates `certifi` from 2026.7.22 to 2026.10.18
+- - [Commits](https://github.com/certifi/python-certifi/compare/2026.07.22...2026.10.18)
+- ---
+- Updated-dependencies:
+- - dependency-name: certifi
+-   dependency-version: 2026.10.18
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch 'main' into dependabot/pip/pip-12db861cdd
+- Merge branch '169-bump-certifi-from-2026722-to-20261018-in-the-pip-group-across-1-directory---167167' into dependabot/pip/pip-12db861cdd
+- Merge pull request #167 from edwardtheharris/dependabot/pip/pip-12db861cdd
+- Bump certifi from 2026.7.22 to 2026.10.18 in the pip group across 1 directory
+- Closes #169
+- Merge branch '169-bump-certifi-from-2026722-to-20261018-in-the-pip-group-across-1-directory---167167'
+- Merge branch '169-bump-certifi-from-2026722-to-20261018-in-the-pip-group-across-1-directory---167167'
+- Merge branch '169-bump-certifi-from-2026722-to-20261018-in-the-pip-group-across-1-directory---167167'
+- Merge branch
+- Merge branch
+- Merge branch
+- Merge pull request #162 from edwardtheharris/dependabot/pip/sphinx-9.2.0
+- Bump sphinx from 9.1.0 to 9.2.0
+- Closes #169
+
+
+### 📚 Documentation - [unreleased]
+
+
+- Update changelog
+
+
+### ⚙️ Miscellaneous Tasks - [unreleased]
+
+
+- Merge branch '169-bump-certifi-from-2026722-to-20261018-in-the-pip-group-across-1-directory---167167'
+- Merge branch
+## [0.0.5] - 2026-11-04
+
+### 🐛 Bug Fixes - 0.0.5
+
+
+- Update values
+
+
+### 💼 Other - 0.0.5
+
+
+- Update values
+## [0.0.4] - 2026-11-03
+
+### 💼 Other - 0.0.4
 
 
 - Update chart version, name
@@ -863,6 +944,16 @@ title: Redis Helm Chart Changelog
 - Closes #164
 - Release 0.0.4
 - Closes #166
+- Update changelog
+- Merge pull request #168 from edwardtheharris/166-release-004
+- Release 0.0.4
+- Closes #166
+
+
+### 📚 Documentation - 0.0.4
+
+
+- Update changelog
 ## [0.0.3] - 2025-11-13
 
 ### 💼 Other - 0.0.3
