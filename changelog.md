@@ -8,6 +8,76 @@ title: Redis Helm Chart Changelog
 ---
 
 <!--markdownlint-disable-->
+## [unreleased]
+
+
+### 🐛 Bug Fixes - [unreleased]
+
+
+- Update lock
+- Drop lock
+- Update lock
+
+
+### 💼 Other - [unreleased]
+
+
+- Bump sphinx from 9.1.0 to 9.2.0
+- Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 9.1.0 to 9.2.0.
+- - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx/compare/v9.1.0...v9.2.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx
+-   dependency-version: 9.2.0
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Update lock
+- Drop lock
+- Update lock
+- Update changelog
+- Bump certifi
+- Bumps the pip group with 1 update in the / directory: [certifi](https://github.com/certifi/python-certifi).
+- Updates `certifi` from 2026.7.22 to 2026.10.18
+- - [Commits](https://github.com/certifi/python-certifi/compare/2026.07.22...2026.10.18)
+- ---
+- Updated-dependencies:
+- - dependency-name: certifi
+-   dependency-version: 2026.10.18
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch 'main' into dependabot/pip/pip-12db861cdd
+- Merge branch '169-bump-certifi-from-2026722-to-20261018-in-the-pip-group-across-1-directory---167167' into dependabot/pip/pip-12db861cdd
+- Merge pull request #167 from edwardtheharris/dependabot/pip/pip-12db861cdd
+- Bump certifi from 2026.7.22 to 2026.10.18 in the pip group across 1 directory
+- Closes #169
+- Merge branch '169-bump-certifi-from-2026722-to-20261018-in-the-pip-group-across-1-directory---167167'
+- Merge branch '169-bump-certifi-from-2026722-to-20261018-in-the-pip-group-across-1-directory---167167'
+- Merge branch '169-bump-certifi-from-2026722-to-20261018-in-the-pip-group-across-1-directory---167167'
+- Merge branch
+- Merge branch
+- Merge branch
+- Merge pull request #162 from edwardtheharris/dependabot/pip/sphinx-9.2.0
+- Bump sphinx from 9.1.0 to 9.2.0
+- Closes #169
+
+
+### 📚 Documentation - [unreleased]
+
+
+- Update changelog
+
+
+### ⚙️ Miscellaneous Tasks - [unreleased]
+
+
+- Merge branch '169-bump-certifi-from-2026722-to-20261018-in-the-pip-group-across-1-directory---167167'
+- Merge branch
 ## [0.0.5] - 2026-11-04
 
 ### 🐛 Bug Fixes - 0.0.5
@@ -25,6 +95,157 @@ title: Redis Helm Chart Changelog
 ### 💼 Other - 0.0.4
 
 
+- Update chart version, name
+- Closes #25
+- Merge pull request #26 from edwardtheharris/25-fix-stateful-set
+- Update chart version, name
+- Closes #25
+- Update labels and names
+- Closes #27
+- Merge pull request #28 from edwardtheharris/27-update-name-and-labels
+- Update labels and names
+- Closes #27
+- Bump sphinx-autobuild from 2024.4.16 to 2024.9.3
+- Bumps [sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild) from 2024.4.16 to 2024.9.3.
+- - [Release notes](https://github.com/sphinx-doc/sphinx-autobuild/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx-autobuild/blob/main/NEWS.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx-autobuild/compare/2024.04.16...2024.09.03)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-autobuild
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #29 from edwardtheharris/dependabot/pip/sphinx-autobuild-2024.9.3
+- Bump sphinx-autobuild from 2024.4.16 to 2024.9.3
+- Bump sphinx-autobuild from 2024.9.3 to 2024.9.19
+- Bumps [sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild) from 2024.9.3 to 2024.9.19.
+- - [Release notes](https://github.com/sphinx-doc/sphinx-autobuild/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx-autobuild/blob/main/NEWS.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx-autobuild/compare/2024.09.03...2024.09.19)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-autobuild
+-   dependency-type: direct:development
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #31 from edwardtheharris/dependabot/pip/sphinx-autobuild-2024.9.19
+- Bump sphinx-autobuild from 2024.9.3 to 2024.9.19
+- Bump pipenv from 2024.0.1 to 2024.0.3
+- Bumps [pipenv](https://github.com/pypa/pipenv) from 2024.0.1 to 2024.0.3.
+- - [Release notes](https://github.com/pypa/pipenv/releases)
+- - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/pypa/pipenv/compare/v2024.0.1...v2024.0.3)
+- ---
+- Updated-dependencies:
+- - dependency-name: pipenv
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #32 from edwardtheharris/dependabot/pip/pipenv-2024.0.3
+- Bump pipenv from 2024.0.1 to 2024.0.3
+- Update service, values
+- Closes #34
+- Merge pull request #35 from edwardtheharris/34-repair-values
+- Update service, values
+- Closes #34
+- Bump starlette from 0.38.6 to 0.40.0 in the pip group
+- Bumps the pip group with 1 update: [starlette](https://github.com/encode/starlette).
+- Updates `starlette` from 0.38.6 to 0.40.0
+- - [Release notes](https://github.com/encode/starlette/releases)
+- - [Changelog](https://github.com/encode/starlette/blob/master/docs/release-notes.md)
+- - [Commits](https://github.com/encode/starlette/compare/0.38.6...0.40.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: starlette
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #38 from edwardtheharris/dependabot/pip/pip-f0796b5709
+- Bump starlette from 0.38.6 to 0.40.0 in the pip group
+- Bump sphinx from 8.0.2 to 8.1.3
+- Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 8.0.2 to 8.1.3.
+- - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx/compare/v8.0.2...v8.1.3)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #37 from edwardtheharris/dependabot/pip/sphinx-8.1.3
+- Bump sphinx from 8.0.2 to 8.1.3
+- Bump sphinx-autobuild from 2024.9.19 to 2024.10.3
+- Bumps [sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild) from 2024.9.19 to 2024.10.3.
+- - [Release notes](https://github.com/sphinx-doc/sphinx-autobuild/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx-autobuild/blob/main/NEWS.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx-autobuild/compare/2024.09.19...2024.10.03)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-autobuild
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #36 from edwardtheharris/dependabot/pip/sphinx-autobuild-2024.10.3
+- Bump sphinx-autobuild from 2024.9.19 to 2024.10.3
+- Bump pipenv from 2024.0.3 to 2024.2.0
+- Bumps [pipenv](https://github.com/pypa/pipenv) from 2024.0.3 to 2024.2.0.
+- - [Release notes](https://github.com/pypa/pipenv/releases)
+- - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/pypa/pipenv/compare/v2024.0.3...v2024.2.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: pipenv
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #39 from edwardtheharris/dependabot/pip/pipenv-2024.2.0
+- Bump pipenv from 2024.0.3 to 2024.2.0
+- Bump loguru from 0.7.2 to 0.7.3
+- Bumps [loguru](https://github.com/Delgan/loguru) from 0.7.2 to 0.7.3.
+- - [Release notes](https://github.com/Delgan/loguru/releases)
+- - [Changelog](https://github.com/Delgan/loguru/blob/master/CHANGELOG.rst)
+- - [Commits](https://github.com/Delgan/loguru/compare/0.7.2...0.7.3)
+- ---
+- Updated-dependencies:
+- - dependency-name: loguru
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Fix envrc
+- Closes #46
+- Fix workflow
+- Closes #46
+- Drop ossar, update requirements
+- Closes #46
+- Update gitignore
+- Closes #46
+- Drop ossar
+- Closes #46
+- Bump pipenv from 2024.2.0 to 2024.4.1
+- Bumps [pipenv](https://github.com/pypa/pipenv) from 2024.2.0 to 2024.4.1.
+- - [Release notes](https://github.com/pypa/pipenv/releases)
+- - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/pypa/pipenv/compare/v2024.2.0...v2024.4.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: pipenv
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #45 from edwardtheharris/dependabot/pip/pipenv-2024.4.1
+- Bump pipenv from 2024.2.0 to 2024.4.1
+- Closes #48
 - Add changelog
 - Closes #50
 - Update ignore, changelog
@@ -733,20 +954,68 @@ title: Redis Helm Chart Changelog
 
 
 - Update changelog
-## [0.0.2] - 2025-11-13
-
-### 💼 Other - 0.0.2
-
-
-- Add changelog config
-- Closes #52
-- Add changelog
-- Closes #52
-- Update index
-- Closes #52
 ## [0.0.3] - 2025-11-13
 
 ### 💼 Other - 0.0.3
+
+
+- Bump sphinx-design from 0.6.0 to 0.6.1
+- Bumps [sphinx-design](https://github.com/executablebooks/sphinx-design) from 0.6.0 to 0.6.1.
+- - [Release notes](https://github.com/executablebooks/sphinx-design/releases)
+- - [Changelog](https://github.com/executablebooks/sphinx-design/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/executablebooks/sphinx-design/compare/v0.6.0...v0.6.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-design
+-   dependency-type: direct:development
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #11 from edwardtheharris/dependabot/pip/sphinx-design-0.6.1
+- Update to use component labels
+- Closes #13
+- Merge pull request #14 from edwardtheharris/13-add-component-label
+- Update to use component labels
+- Closes #13
+- Add test suite for stateful set
+- Closes #9
+- Pass test tests
+- Closes #9
+- Pass service test
+- Closes #9
+- Complete unit tests
+- Closes #9
+- Update readme
+- Closes #9
+- Fix unit tests
+- Closes #9
+- Fix test paths
+- Closes #9
+- Merge pull request #15 from edwardtheharris/9-add-unittests-for-deployed-template
+- 9 add unittests for deployed template
+- Closes #9
+- Add missing labels
+- Closes #18
+- Merge pull request #19 from edwardtheharris/18-add-application-name
+- Add missing labels
+- Closes #18
+- Update pvc name
+- Closes #21
+- Merge pull request #22 from edwardtheharris/21-update-redis-pvc
+- Update pvc name
+- Closes #21
+- Add proper icon url
+- Closes #23
+- Merge pull request #24 from edwardtheharris/23-fix-the-icon-url
+- Add proper icon url
+- Closes #23
+- Add changelog config
+- Closes #54
+- Add changelog
+- Closes #54
+## [0.0.2] - 2025-11-13
+
+### 💼 Other - 0.0.2
 
 
 - Initial commit
@@ -841,209 +1110,10 @@ title: Redis Helm Chart Changelog
 - Merge pull request #8 from edwardtheharris/7-install-working-redis
 - Update chart for deployment
 - Closes #7
-- Bump sphinx-design from 0.6.0 to 0.6.1
-- Bumps [sphinx-design](https://github.com/executablebooks/sphinx-design) from 0.6.0 to 0.6.1.
-- - [Release notes](https://github.com/executablebooks/sphinx-design/releases)
-- - [Changelog](https://github.com/executablebooks/sphinx-design/blob/main/CHANGELOG.md)
-- - [Commits](https://github.com/executablebooks/sphinx-design/compare/v0.6.0...v0.6.1)
-- ---
-- Updated-dependencies:
-- - dependency-name: sphinx-design
--   dependency-type: direct:development
--   update-type: version-update:semver-patch
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #11 from edwardtheharris/dependabot/pip/sphinx-design-0.6.1
-- Update to use component labels
-- Closes #13
-- Merge pull request #14 from edwardtheharris/13-add-component-label
-- Update to use component labels
-- Closes #13
-- Add test suite for stateful set
-- Closes #9
-- Pass test tests
-- Closes #9
-- Pass service test
-- Closes #9
-- Complete unit tests
-- Closes #9
-- Update readme
-- Closes #9
-- Fix unit tests
-- Closes #9
-- Fix test paths
-- Closes #9
-- Merge pull request #15 from edwardtheharris/9-add-unittests-for-deployed-template
-- 9 add unittests for deployed template
-- Closes #9
-- Add missing labels
-- Closes #18
-- Merge pull request #19 from edwardtheharris/18-add-application-name
-- Add missing labels
-- Closes #18
-- Update pvc name
-- Closes #21
-- Merge pull request #22 from edwardtheharris/21-update-redis-pvc
-- Update pvc name
-- Closes #21
-- Add proper icon url
-- Closes #23
-- Merge pull request #24 from edwardtheharris/23-fix-the-icon-url
-- Add proper icon url
-- Closes #23
-- Update chart version, name
-- Closes #25
-- Merge pull request #26 from edwardtheharris/25-fix-stateful-set
-- Update chart version, name
-- Closes #25
-- Update labels and names
-- Closes #27
-- Merge pull request #28 from edwardtheharris/27-update-name-and-labels
-- Update labels and names
-- Closes #27
-- Bump sphinx-autobuild from 2024.4.16 to 2024.9.3
-- Bumps [sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild) from 2024.4.16 to 2024.9.3.
-- - [Release notes](https://github.com/sphinx-doc/sphinx-autobuild/releases)
-- - [Changelog](https://github.com/sphinx-doc/sphinx-autobuild/blob/main/NEWS.rst)
-- - [Commits](https://github.com/sphinx-doc/sphinx-autobuild/compare/2024.04.16...2024.09.03)
-- ---
-- Updated-dependencies:
-- - dependency-name: sphinx-autobuild
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #29 from edwardtheharris/dependabot/pip/sphinx-autobuild-2024.9.3
-- Bump sphinx-autobuild from 2024.4.16 to 2024.9.3
-- Bump sphinx-autobuild from 2024.9.3 to 2024.9.19
-- Bumps [sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild) from 2024.9.3 to 2024.9.19.
-- - [Release notes](https://github.com/sphinx-doc/sphinx-autobuild/releases)
-- - [Changelog](https://github.com/sphinx-doc/sphinx-autobuild/blob/main/NEWS.rst)
-- - [Commits](https://github.com/sphinx-doc/sphinx-autobuild/compare/2024.09.03...2024.09.19)
-- ---
-- Updated-dependencies:
-- - dependency-name: sphinx-autobuild
--   dependency-type: direct:development
--   update-type: version-update:semver-patch
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #31 from edwardtheharris/dependabot/pip/sphinx-autobuild-2024.9.19
-- Bump sphinx-autobuild from 2024.9.3 to 2024.9.19
-- Bump pipenv from 2024.0.1 to 2024.0.3
-- Bumps [pipenv](https://github.com/pypa/pipenv) from 2024.0.1 to 2024.0.3.
-- - [Release notes](https://github.com/pypa/pipenv/releases)
-- - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
-- - [Commits](https://github.com/pypa/pipenv/compare/v2024.0.1...v2024.0.3)
-- ---
-- Updated-dependencies:
-- - dependency-name: pipenv
--   dependency-type: direct:production
--   update-type: version-update:semver-patch
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #32 from edwardtheharris/dependabot/pip/pipenv-2024.0.3
-- Bump pipenv from 2024.0.1 to 2024.0.3
-- Update service, values
-- Closes #34
-- Merge pull request #35 from edwardtheharris/34-repair-values
-- Update service, values
-- Closes #34
-- Bump starlette from 0.38.6 to 0.40.0 in the pip group
-- Bumps the pip group with 1 update: [starlette](https://github.com/encode/starlette).
-- Updates `starlette` from 0.38.6 to 0.40.0
-- - [Release notes](https://github.com/encode/starlette/releases)
-- - [Changelog](https://github.com/encode/starlette/blob/master/docs/release-notes.md)
-- - [Commits](https://github.com/encode/starlette/compare/0.38.6...0.40.0)
-- ---
-- Updated-dependencies:
-- - dependency-name: starlette
--   dependency-type: indirect
--   dependency-group: pip
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #38 from edwardtheharris/dependabot/pip/pip-f0796b5709
-- Bump starlette from 0.38.6 to 0.40.0 in the pip group
-- Bump sphinx from 8.0.2 to 8.1.3
-- Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 8.0.2 to 8.1.3.
-- - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
-- - [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
-- - [Commits](https://github.com/sphinx-doc/sphinx/compare/v8.0.2...v8.1.3)
-- ---
-- Updated-dependencies:
-- - dependency-name: sphinx
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #37 from edwardtheharris/dependabot/pip/sphinx-8.1.3
-- Bump sphinx from 8.0.2 to 8.1.3
-- Bump sphinx-autobuild from 2024.9.19 to 2024.10.3
-- Bumps [sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild) from 2024.9.19 to 2024.10.3.
-- - [Release notes](https://github.com/sphinx-doc/sphinx-autobuild/releases)
-- - [Changelog](https://github.com/sphinx-doc/sphinx-autobuild/blob/main/NEWS.rst)
-- - [Commits](https://github.com/sphinx-doc/sphinx-autobuild/compare/2024.09.19...2024.10.03)
-- ---
-- Updated-dependencies:
-- - dependency-name: sphinx-autobuild
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #36 from edwardtheharris/dependabot/pip/sphinx-autobuild-2024.10.3
-- Bump sphinx-autobuild from 2024.9.19 to 2024.10.3
-- Bump pipenv from 2024.0.3 to 2024.2.0
-- Bumps [pipenv](https://github.com/pypa/pipenv) from 2024.0.3 to 2024.2.0.
-- - [Release notes](https://github.com/pypa/pipenv/releases)
-- - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
-- - [Commits](https://github.com/pypa/pipenv/compare/v2024.0.3...v2024.2.0)
-- ---
-- Updated-dependencies:
-- - dependency-name: pipenv
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #39 from edwardtheharris/dependabot/pip/pipenv-2024.2.0
-- Bump pipenv from 2024.0.3 to 2024.2.0
-- Bump loguru from 0.7.2 to 0.7.3
-- Bumps [loguru](https://github.com/Delgan/loguru) from 0.7.2 to 0.7.3.
-- - [Release notes](https://github.com/Delgan/loguru/releases)
-- - [Changelog](https://github.com/Delgan/loguru/blob/master/CHANGELOG.rst)
-- - [Commits](https://github.com/Delgan/loguru/compare/0.7.2...0.7.3)
-- ---
-- Updated-dependencies:
-- - dependency-name: loguru
--   dependency-type: direct:production
--   update-type: version-update:semver-patch
-- ...
-- Dependabot[bot] <support@github.com>
-- Fix envrc
-- Closes #46
-- Fix workflow
-- Closes #46
-- Drop ossar, update requirements
-- Closes #46
-- Update gitignore
-- Closes #46
-- Drop ossar
-- Closes #46
-- Bump pipenv from 2024.2.0 to 2024.4.1
-- Bumps [pipenv](https://github.com/pypa/pipenv) from 2024.2.0 to 2024.4.1.
-- - [Release notes](https://github.com/pypa/pipenv/releases)
-- - [Changelog](https://github.com/pypa/pipenv/blob/main/CHANGELOG.md)
-- - [Commits](https://github.com/pypa/pipenv/compare/v2024.2.0...v2024.4.1)
-- ---
-- Updated-dependencies:
-- - dependency-name: pipenv
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #45 from edwardtheharris/dependabot/pip/pipenv-2024.4.1
-- Bump pipenv from 2024.2.0 to 2024.4.1
-- Closes #48
 - Add changelog config
-- Closes #54
+- Closes #52
 - Add changelog
-- Closes #54
+- Closes #52
+- Update index
+- Closes #52
 <!-- generated by git-cliff -->
